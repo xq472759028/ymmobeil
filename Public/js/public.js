@@ -30,12 +30,17 @@ window.onload = function () {
     $(".ymfoot>li>a").each(function () {
         $this = $(this);
         if ($this[0].href == String(window.location)) {
-            console.log($this[0].href);
-            console.log(String(window.location));
             $(this).parent().siblings().find('.ymfoot-off').css('display','none');
             $(this).parent().siblings().find('.ymfoot-on').css('display','block');
             $(this).find('.ymfoot-on').css('display','none');
             $(this).find('.ymfoot-off').css('display','block');
         }
     });
+
+    $('.ymsign-click').on('touchstart',function () {
+        $('.ymsign').slideDown()
+    });
+    $('.ymsign-close').on('touchstart',function () {
+        $('.ymsign').slideUp();
+    })
 }

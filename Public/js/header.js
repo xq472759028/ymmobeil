@@ -78,5 +78,32 @@ document.writeln(`
         </ul>
     </div>
 </header>
+<div class="ymsign">
+    <div class="ymsign-center">
+        <div class="ymsign-img"></div>
+        <div class="ymsign-title">
+            <p>预约设计师</p>
+            <span>已有<em>122212</em>人预约</span>
+        </div>
+        <div class="ymsign-input">
+            <form action="">
+                <div>
+                    <div class="ymsign-icon">
+                        <img src="Public/image/public/name.png" alt="">
+                    </div>
+                    <input type="text" placeholder="请输入您的称呼">
+                </div>
+                <div>
+                    <div class="ymsign-icon">
+                        <img src="Public/image/public/phone.png" alt="">
+                    </div>
+                    <input type="text" placeholder="请输入您的联系方式">
+                </div>
+                <button type="button">立即预约</button>
+            </form>
+        </div>
+        <div class="ymsign-close">×</div>
+    </div>
+</div>
 
 `)
