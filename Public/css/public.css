@@ -35,7 +35,7 @@
 
 /*报价框*/
 .ymsign{position: fixed;width: 100%;height: 100vh;left: 0;top: 0;background: rgba(0,0,0,0.8);display: none;z-index: 50}
-.ymsign-center{position: absolute;left: 0;right: 0;top: 1.88rem;margin: auto;width: 6.6rem;height: 9.05rem;background: #fff;border-radius: 0.1rem}
+.ymsign-center{position: absolute;left: 0;right: 0;top: 12%;margin: auto;width: 6.6rem;height: 9.05rem;background: #fff;border-radius: 0.1rem}
 .ymsign-img{width: 100%;height: 3.35rem;background: url("../image/public/sign.jpg") no-repeat center;background-size: cover}
 .ymsign-title{width: 100%;overflow: hidden}
 .ymsign-title p{font-size: 0.46rem;color: #e03a3a;text-align: center;line-height: 0.46rem;padding-top: 0.6rem}
