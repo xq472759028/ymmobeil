@@ -150,10 +150,10 @@ a:active{
 .Phome-need-title p{font-size: 0.2rem;color: #999;text-align: center;line-height: 0.2rem;padding-top: 0.17rem}
 .Phome-need-title p span{display: inline-block;color: #e03a3a}
 .Phome-need form{display: block;margin: 0 0.3rem;margin-top: 0.32rem}
-.Phome-need form input{display: block;width: 100%;height: 0.9rem;border: 0.01rem solid #cfcfcf;box-sizing: border-box;background: #f5f5f5;padding-left: 0.2rem;font-size: 0.24rem;color: #999;margin-bottom:0.28rem;border-radius: 0.08rem}
+.Phome-need form input{display: block;width: 100%;height: 0.9rem;border: 0.01rem solid #cfcfcf;box-sizing: border-box;background: #f5f5f5;padding-left: 0.2rem;font-size: 0.24rem;color: #999;margin-bottom:0.28rem;border-radius: 0.05rem}
 .Phome-need form input:nth-child(2){margin-bottom: 0}
 .Phome-need form p{font-size: 0.2rem;color: #999;text-align: center;line-height: 0.2rem;margin-top: 0.2rem}
-.Phome-need form button{display: block;width: 100%;height: 0.9rem;border-radius: 0.08rem;background: #e55757;color: #fff;font-size: 0.36rem;text-align: center;line-height: 0.9rem;margin-top: 0.36rem}
+.Phome-need form button{display: block;width: 100%;height: 0.9rem;border-radius: 0.05rem;background: #e55757;color: #fff;font-size: 0.36rem;text-align: center;line-height: 0.9rem;margin-top: 0.36rem}
 
 /*美家案例*/
 .Phome-case{width: 100%;overflow: hidden;margin-top: 0.8rem}
@@ -191,7 +191,7 @@ a:active{
 .Phome-serve .wrapper03 .scroller li.cur a{color:#333;height:.9rem;}
 .Phome-serve .wrapper03 .scroller li em{position: absolute;left: 0;bottom: 0;width: 0.28rem;height: 0.06rem;background: #eee}
 .Phome-serve .wrapper03 .scroller li.cur em{background: #e03a3a}
-.Phome-serve-list{width: 100%;height: 4rem;position: relative;margin-top: 0.28rem;border-radius: 0.1rem;overflow: hidden}
+.Phome-serve-list{width: 100%;height: 4rem;position: relative;margin-top: 0.28rem;border-radius: 0.05rem;overflow: hidden}
 .Phome-serve-list li{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
 .Phome-serve-list li img{display: block;width: 100%;height: 100%}
 .Phome-serve-list li p{position: absolute;width: 100%;height: 0.6rem;background: rgba(0,0,0,0.5);left: 0;bottom: 0;line-height: 0.6rem;}
@@ -200,23 +200,24 @@ a:active{
 
 /*优质标杆工程*/
 .Phome-title-two{width: 0.38rem;height: 0.38rem}
-.Phome-good{width: 100%;overflow: hidden;padding-top: 0.6rem;border-top: 0.18rem solid #f5f5f5;margin-top: 0.2rem;padding-bottom: 0.58rem}
-.Phome-good .wrapper04 {position:relative;height: 4.1rem;width: 100%;overflow: hidden;margin:0 auto;margin-top:0.38rem;border-top: 0.01rem solid #e0e0e0;}
+.Phome-good{width: 100%;overflow: hidden;padding-top: 0.6rem;border-top: 0.18rem solid #f5f5f5;margin-top: 0.2rem;padding-bottom: 0.5rem}
+.Phome-good .wrapper04 {position:relative;height: 4.22rem;width: 100%;overflow: hidden;margin:0 auto;margin-top:0.38rem;}
 .Phome-good .wrapper04 .scroller {position:absolute}
-.Phome-good .wrapper04 .scroller li {width:4.4rem;height: 4.1rem;float: left;box-shadow: 0px 12px 8px -12px #e1e1e1;border-radius: 0.1rem;overflow: hidden}
-.Phome-good .wrapper04 .scroller li a{display:block;margin-right: 0.18rem;box-shadow: 0px 12px 8px -12px #e1e1e1}
+.Phome-good .wrapper04 .scroller li {width:4.4rem;height: 4.1rem;float: left;border-radius: 0.05rem;}
+.Phome-good .wrapper04 .scroller li:first-child a{margin-left: 0.08rem}
+.Phome-good .wrapper04 .scroller li a{display:block;margin-right: 0.18rem;box-shadow: 0px 0px 8px 0px #e1e1e1}
 .Phome-good .wrapper04 .scroller li:last-child a{;margin-right:0;}
 .Phome-good-img{width: 100%;height: 3rem}
 .Phome-good-img img{display: block;width: 100%;height: 100%}
 .Phome-good-con{width: 4.2rem;height: 1.1rem;margin: 0 auto}
-.Phome-good-con p{font-size: 0.28rem;color: #333;line-height: 0.28rem;padding-top: 0.2rem}
-.Phome-good-con span{display: block;font-size: 0.22rem;color: #999;line-height: 0.22rem;padding-top: 0.15rem}
+.Phome-good-con p{font-size: 0.28rem;color: #333;line-height: 0.28rem;padding-top: 0.2rem;padding-left: 0.16rem}
+.Phome-good-con span{display: block;font-size: 0.22rem;color: #999;line-height: 0.22rem;padding-top: 0.15rem;padding-left: 0.16rem}
 
 
 /*美家视屏*/
 .Phome-title-three{width: 0.4rem;height: 0.25rem}
-.Phome-video{width: 100%;overflow: hidden;padding-top: 0.6rem;border-top: 0.18rem solid #f5f5f5;margin-top: 0.2rem;padding-bottom: 0.58rem}
-.Phome-video-con{width: 100%;height:4rem;margin-top: 0.38rem;position: relative;border-radius: 0.1rem;overflow: hidden;background: rgba(0,0,0,0.5)}
+.Phome-video{width: 100%;overflow: hidden;padding-top: 0.6rem;border-top: 0.18rem solid #f5f5f5;padding-bottom: 0.58rem}
+.Phome-video-con{width: 100%;height:4rem;margin-top: 0.38rem;position: relative;border-radius: 0.05rem;overflow: hidden;background: rgba(0,0,0,0.5)}
 .Phome-video-con img{display: block;width: 100%;height: 100%;position: absolute;left: 0;top: 0;z-index: 5}
 .Phome-video-con video{display: block;width: 100%;height: 100%}
 .Phome-video-list{width: 100%;height: auto;overflow: hidden}
@@ -253,7 +254,7 @@ a:active{
 .Phome-tel-num span{display:block;float:left;font-size: 0.4rem;color: #de3535;font-weight: bold;margin-left: 0.18rem;line-height: 0.33rem}
 
 /*版权所有*/
-.Phome-copy{width: 100%;height: 1.36rem;background: #f6f6f6;overflow: hidden}
+.Phome-copy{width: 100%;height: 1.36rem;background: #f6f6f6;overflow: hidden;padding-bottom: 1.01rem}
 .Phome-copy p{width: 6rem;font-size: 0.24rem;color: #999;text-align: center;line-height: 0.36rem;margin: 0 auto;margin-top: 0.38rem}
 
 
@@ -509,7 +510,7 @@ a:active{
 .Pmade-channel-title em{display: inline-block;width: 1.02rem;height: 0.27rem;}
 .Pmade-channel-em1{background: url("../image/made/line-left.png") no-repeat center;background-size: cover}
 .Pmade-channel-em2{background: url("../image/made/line-right.png") no-repeat center;background-size: cover}
-.Pmade-channel-title p{font-size: 0.52rem;color: #e03a3a;line-height: 0.52rem;display: inline-block}
+.Pmade-channel-title p{font-size: 0.52rem;color: #e03a3a;line-height: 0.52rem;display: inline-block;font-weight: bold}
 .Pmade-channel-input{width: 100%;}
 .Pmade-channel-input>form>div{width: 6.6rem;height: 0.8rem;margin: 0 auto;border: 0.01rem solid #cbcbcb;box-sizing: border-box;background: #f6f6f6;border-radius: 0.1rem;overflow: hidden}
 .Pmade-channel-icon{width: 0.58rem;height: 0.38rem;border-right:0.01rem solid #cbcbcb;float: left;margin-top: 0.2rem}
@@ -626,7 +627,7 @@ a:active{
 /*banner图*/
 .Psafe-banner{width: 100%;height: 7.3rem;background: url("../image/safe/safe-banner.jpg") no-repeat center;background-size: cover}
 /*4大模块*/
-.Psafe-fore{width: 100%;height: 2rem;border-top:0.08rem solid #f4f4f4;box-shadow: 0px 24px 16px -24px #e1e1e1}
+.Psafe-fore{width: 100%;height: 2rem;border-top:0.08rem solid #f4f4f4;box-shadow: 0px 8px 8px -4px #e1e1e1}
 .Psafe-fore-list{width: 6.9rem;height: 100%;display: flex;justify-content: space-between;flex-wrap: wrap;margin: 0 auto}
 .Psafe-fore-list>li{width: 25%;height:100%}
 .Psafe-fore-list>li img{display: block;width: 0.9rem;height: 0.9rem;border-radius: 50%;margin: 0 auto;margin-top: 0.4rem}
@@ -640,20 +641,20 @@ a:active{
 .Psafe-modern b{font-size: 0.28rem;color: #fff;text-align: center;width: 6.2rem;margin: 0 auto;font-weight: normal;line-height: 0.56rem;padding-top: 0.76rem;display: block}
 
 /*4大步骤*/
-.Psafe-step{width: 100%;height: 1.9rem;margin: 0.2rem auto 0.6rem;border-bottom: 0.18rem solid #f5f5f5;display: flex;justify-content: space-between;flex-wrap: wrap}
+.Psafe-step{width: 100%;height: 1.9rem;margin: 0.2rem auto 0.6rem;display: flex;justify-content: space-between;flex-wrap: wrap}
 .Psafe-step>li{width: 1.8rem;height: 100%;position: relative}
 .Psafe-step>li>img{display: block;width: 100%;height: 100%}
 .Psafe-step-shadow{position: absolute;left: 0;top:0 ;width: 100%;height: 100%;background: rgba(0,0,0,0.4)}
 .Psafe-step-shadow img{display: block;width: auto;height: 0.52rem;margin: 0.52rem auto 0;}
 .Psafe-step-shadow p{font-size: 0.24rem;line-height: 0.24rem;text-align: center;padding-top: 0.2rem;color: #fff}
 /*强大供应链*/
-.Psafe-supply{width: 100%;height: 9.98rem;background: url("../image/safe/supply-banner.jpg") no-repeat center;background-size: cover;}
+.Psafe-supply{width: 100%;height: 9.98rem;background: url("../image/safe/supply-banner.jpg") no-repeat center;background-size: cover;border-top: 0.18rem solid #f5f5f5;}
 .Psafe-title{width: 100%;height: 2.13rem;overflow: hidden}
 .Psafe-title-big{font-size: 0.52rem;color: #333;text-align: center;line-height: 0.52rem;margin-top: 0.6rem;height: 0.52rem}
 .Psafe-title-big em{display: inline-block;font-style: normal;font-size: 0.22rem;line-height: 0.22rem;margin-bottom: 0.08rem;height: 0.22rem;overflow: hidden}
 /*.Psafe-title-big em:first-child{margin-right: 0.2rem;}*/
 /*.Psafe-title-big em:last-child{margin-left: 0.2rem;}*/
-.Psafe-title-big p{display: inline-block}
+.Psafe-title-big p{display: inline-block;font-weight: bold}
 .Psafe-title-big p span{color: #e03a3a;margin-right: 0.17rem;}
 .Psafe-title>p{font-size: 0.24rem;color: #999;text-align: center;line-height: 0.24rem;padding-top: 0.22rem}
 .Psafe-supply-list{width: 100%;height: 7.85rem}
@@ -667,7 +668,7 @@ a:active{
     -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
     -o-transform:rotate(45deg);
     position: absolute;left: 1.2rem;top: 0.08rem;}
-.Psafe-supply-list>li>p{font-size: 0.23rem;color: #333;height:100%;padding-left: 1.75rem;}
+.Psafe-supply-list>li>p{font-size: 0.32rem;color: #333;height:100%;padding-left: 1.75rem;}
 
 /*用心建筑家*/
 .Psafe-build{width: 100%;height: auto;padding-bottom: 0.67rem;background: #f5f5f5}
@@ -682,7 +683,7 @@ a:active{
 
 
 /*金牌服务*/
-.Psafe-gold{width: 100%;height: 7.66rem;background: #fff}
+.Psafe-gold{width: 100%;padding-bottom: 0.25rem;background: #fff}
 .Psafe-gold-list{width: 7.1rem;height: auto;margin: 0 auto;display: flex;justify-content: space-between;flex-wrap: wrap}
 .Psafe-gold-list>li{width: 2.23rem;height: 2.42rem;margin-bottom: 0.3rem}
 .Psafe-gold-list>li:first-child{background: url("../image/safe/gold1.jpg") no-repeat center;background-size: cover;}
@@ -712,7 +713,7 @@ a:active{
 
 
 /*五大标准工艺*/
-.Psafe-process{width: 100%;overflow: hidden;padding-bottom: 0.6rem}
+.Psafe-process{width: 100%;overflow: hidden;padding-bottom: 0.6rem;border-top: 0.18rem solid #f5f5f5;}
 .Psafe-process .Psafe-title{height: 1.92rem}
 .Psafe-process-list{width: 7.1rem;height: auto;margin: 0 auto}
 .Psafe-process-con{width: 100%;height: 2.6rem;margin-bottom: 0.1rem;display: flex;justify-content: space-between;flex-wrap: nowrap}
