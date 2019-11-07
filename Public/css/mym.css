@@ -435,9 +435,9 @@ a:active{
 .Pdesign-word{float: left;width: 6.21rem;height: 100%}
 .Pdesign-name{width: 100%;overflow: hidden}
 .Pdesign-name p{float:left;font-size: 0.34rem;color: #333;margin-right: 0.1rem;font-weight: bold;line-height: 0.34rem;margin-top: 0.03rem}
-.Pdesign-name span{display: block;float:left;font-size: 0.16rem;color: #fff;padding: 0.05rem 0.1rem;background: #de3535;line-height: 0.22rem;margin-top: 0.1rem;border-radius: 0.05rem}
-.Pdesign-type{width: 100%;padding-top: 0.17rem}
-.Pdesign-type span{display: block;float: left;font-size: 0.2rem;color: #666;line-height: 0.2rem}
+.Pdesign-name span{display: block;float:left;font-size: 0.16rem;color: #fff;padding: 0.05rem 0.1rem;background: #de3535;line-height: 0.22rem;margin-top: 0.06rem;border-radius: 0.05rem}
+.Pdesign-type{width: 100%;padding-top: 0.17rem;line-height: 0.24rem}
+.Pdesign-type span{display: block;float: left;font-size: 0.2rem;color: #666;}
 .Pdesign-type span:first-child{width: 1.51rem}
 .Pdesign-type span:nth-child(2){width: 1.62rem}
 .Pdesign-type span:last-child{width: 3rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
