@@ -270,7 +270,7 @@ a:active{
 /*banner图*/
 .Pcase-banner{width: 100%;height: 5.84rem;background: url("../image/offer/banner.jpg") no-repeat center;background-size: cover}
 /*5秒计算报价*/
-.Pcase-cale{width: 100%;}
+.Pcase-cale{width: 7.1rem;margin:0 auto;box-shadow:0px 54px 40px 0px #e1e1e1;background: #fff}
 .Pcase-title{width: 100%;padding-top: 1.08rem;text-align: center;line-height: 0.4rem;color: #333;font-weight: bold;overflow: hidden;font-size: 0.4rem}
 .Pcase-title span{display: inline-block;color: #efb85c}
 .Pcase-input{width: 100%;margin-top: 0.4rem}
@@ -279,10 +279,14 @@ a:active{
 .Pcase-input form p input{display: block;width: 6.3rem;height:100%;padding-left: 0.2rem;font-size: 0.26rem;color: #333;background: none}
 .Pcase-input form p em{position: absolute;font-style: normal;font-size: 0.3rem;color: #333;top: 0.3rem;right: 0.2rem;line-height: 0.3rem;display: block}
 .Pcase-input form button{display: block;position:absolute;left:0;right:0;bottom:-0.4rem;margin:auto;width: 4.43rem;height: 0.88rem;background: #de3535;border-radius: 0.5rem;font-size: 0.4rem;color: #fefefe;text-align: center;line-height: 0.88rem;z-index: 20}
+.Pfree-cale{padding-bottom: 1.01rem}
+.Pfree-cale form button{display: block;position: relative;width: 6.5rem;height: 0.8rem;margin:0 auto;background: #de3535;border-radius: 0.1rem;font-size: 0.4rem;color: #fefefe;text-align: center;line-height: 0.8rem;margin-top: 0.22rem}
+
+
 
 /*3大特权*/
-.Pcase-power{width: 100%;background: #fbfbfb;overflow: hidden}
-.Pcase-power-title{width: 100%;margin-top: 1.15rem}
+.Pcase-power{width: 100%;background: #fbfbfb;overflow: hidden;margin-top: 0.2rem}
+.Pcase-power-title{width: 100%;margin-top: 0.95rem}
 .Pcase-power-title p{font-size: 0.36rem;color: #333;text-align: center;line-height: 0.36rem}
 .Pcase-power-title span{display: block;font-size: 0.46rem;color: #ebaf4b;text-align: center;line-height: 0.46rem;padding-top: 0.2rem}
 .Pcase-power-con{width: 100%}
