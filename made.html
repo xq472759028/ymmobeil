@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>全屋定制</title>
+    <link rel="stylesheet" href="Public/css/mym.css">
+    <link rel="stylesheet" href="Public/css/idangerous.swiper.css">
+    <link rel="stylesheet" href="Public/css/public.css">
+    <!--引入js-->
+    <script src="Public/js/jquery.min.js"></script>
+    <script src="Public/js/rem.js"></script>
+    <script src="Public/js/idangerous.swiper.min.js"></script>
+    <script src="Public/js/public.js"></script>
+</head>
+<body>
+<!--头部-->
+<script src="Public/js/header.js"></script>
+<!--banner图-->
+<div class="Pmade-banner"></div>
+<!--通道报名-->
+<div class="Pmade-channel">
+    <div class="Pmade-channel-center">
+        <div class="Pmade-channel-title">
+            <em class="Pmade-channel-em1"></em>
+            <p> 全屋定制通道</p>
+            <em class="Pmade-channel-em2"></em>
+        </div>
+        <div class="Pmade-channel-input">
+            <form action="">
+                <div>
+                    <div class="Pmade-channel-icon">
+                        <img src="Public/image/made/name.png" alt="">
+                    </div>
+                    <input type="text" placeholder="请输入您的称呼">
+                </div>
+                <div>
+                    <div class="Pmade-channel-icon">
+                        <img src="Public/image/made/tel.png" alt="">
+                    </div>
+                    <input type="text" placeholder="请输入您的联系方式">
+                </div>
+                <button type="button">立即预约</button>
+                <span>声明：为了您的利益，您的隐私将被严格保密。请放心填写！</span>
+            </form>
+        </div>
+    </div>
+</div>
+<!--七大空间定制梦想家-->
+<div class="Pmade-space">
+    <div class="Pmade-space-head">
+        <div class="Pmade-space-title">
+            <em class="Pmade-channel-em1"></em>
+            <p> 全屋定制通道</p>
+            <em class="Pmade-channel-em2"></em>
+        </div>
+        <span>定制一家人的欢乐时光</span>
+    </div>
+    <!--轮播图-->
+    <div class="Pmade-space-list">
+        <div class="Pslide-bt">
+            <span data-Pslide-bt='1' onclick='tz(1)'>客餐厅</span>
+            <span data-Pslide-bt='2' onclick='tz(2)'>卧室</span>
+            <span data-Pslide-bt='3' onclick='tz(3)'>书房</span>
+            <span data-Pslide-bt='4' onclick='tz(4)'>厨房</span>
+            <span data-Pslide-bt='5' onclick='tz(5)'>卫生间</span>
+            <span data-Pslide-bt='6' onclick='tz(6)'>阳台</span>
+            <span data-Pslide-bt='7' onclick='tz(7)'>玄关</span>
+        </div>
+        <div id="Pslide" class="index-Pslide Pslide">
+            <!-- 轮播图片数量可自行增减 -->
+            <div class="img">
+                <img src="Public/image/made/ct (1).jpg"/>
+                <p>
+                    <span>餐厅</span>
+                </p>
+            </div>
+            <div class="img">
+                <img src="Public/image/made/p1.1.jpg"/>
+                <p>
+                    <span>茶几</span>
+                    <span>沙发</span>
+                    <span>电视柜</span>
+                </p>
+            </div>
+            <div class="img">
+                <img src="Public/image/made/sf (1).jpg"/>
+                <p>
+                    <span>书房</span>
+                    <span>书架</span>
+                </p>
+            </div>
+            <div class="img">
+                <img src="Public/image/made/cf (1).jpg"/>
+                <p>
+                    <span>厨房L型橱柜</span>
+                </p>
+            </div>
+            <div class="img">
+                <img src="Public/image/made/wsj (1).jpg"/>
+                <p>
+                    <span>卫生间淋浴间</span>
+                </p>
+            </div>
+            <div class="img">
+                <img src="Public/image/made/yt (1).png"/>
+                <p>
+                    <span>阳台</span>
+                    <span>洗衣区</span>
+                </p>
+            </div>
+            <div class="img">
+                <img src="Public/image/made/xg (1).jpg"/>
+                <p>
+                    <span>玄关</span>
+                    <span>收纳柜</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <button type="button">定制咨询</button>
+</div>
+<!--全屋定制、美家案例-->
+<div class="Pmade-case">
+    <div class="Pmade-case-head">
+        <div class="Pmade-case-title">
+            <em class="Pmade-channel-em1"></em>
+            <p> 全屋定制通道</p>
+            <em class="Pmade-channel-em2"></em>
+        </div>
+        <span>定制一家人的欢乐时光</span>
+    </div>
+    <div class="Pmade-case-list">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="Public/image/made/case1.jpg"></div>
+                <div class="swiper-slide"><img src="Public/image/made/case1.jpg"></div>
+            </div>
+        </div>
+        <div class="pagination"></div>
+    </div>
+</div>
+<!--定制健康舒适家-->
+<div class="Pmade-home">
+    <div class="Pmade-case-head Pmade-home-head">
+        <div class="Pmade-case-title">
+            <em class="Pmade-channel-em1"></em>
+            <p> 定制健康舒适家</p>
+            <em class="Pmade-channel-em2"></em>
+        </div>
+        <span>全方位保护家人健康</span>
+    </div>
+    <ul class="Pmade-home-list">
+        <li>
+            <div class="Pmade-home-img">
+                <img src="Public/image/made/home1.jpg" alt="">
+            </div>
+            <p class="Pmade-home-title">板材</p>
+            <span>进口家具板材</span>
+            <span>欧盟级环保标准</span>
+        </li>
+        <li>
+            <div class="Pmade-home-img">
+                <img src="Public/image/made/home2.jpg" alt="">
+            </div>
+            <p class="Pmade-home-title">五金配饰</p>
+            <span>优质五金配件</span>
+            <span>牢固耐用承重力强</span>
+        </li>
+        <li>
+            <div class="Pmade-home-img">
+                <img src="Public/image/made/home3.jpg" alt="">
+            </div>
+            <p class="Pmade-home-title">个性化定制</p>
+            <span>高度定制化</span>
+            <span>打造独属于您的定制家</span>
+        </li>
+        <li>
+            <div class="Pmade-home-img">
+                <img src="Public/image/made/home4.jpg" alt="">
+            </div>
+            <p class="Pmade-home-title">英迈木门</p>
+            <span>英迈木门</span>
+            <span>保温阻燃隔音不变形</span>
+        </li>
+        <li>
+            <div class="Pmade-home-img">
+                <img src="Public/image/made/home5.jpg" alt="">
+            </div>
+            <p class="Pmade-home-title">封边技术</p>
+            <span>德国封边技术</span>
+            <span>封边牢固平整光滑</span>
+        </li>
+        <li>
+            <div class="Pmade-home-img">
+                <img src="Public/image/made/home6.jpg" alt="">
+            </div>
+            <p class="Pmade-home-title">贴心服务</p>
+            <span>贴心服务</span>
+            <span>设计生产安装一站式服务</span>
+        </li>
+    </ul>
+    <button type="button">定制咨询</button>
+</div>
+<!--80000生态家具园-->
+<div class="Pmade-garden">
+    <div class="Pmade-garden-title">
+        <p> 80000㎡ 生态家居产业园</p>
+        <em></em>
+        <span>
+            定制家具产品、橱柜产品，完全由自有生产基地设计制造，
+            在这里从设计生产到配送安装，为您提供省心高效的
+            一站式服务
+        </span>
+    </div>
+    <ul class="Pmade-garden-list">
+        <li>
+            <img src="Public/image/made/gar1.png" alt="">
+            <p>一流原材料</p>
+        </li>
+        <li>
+            <img src="Public/image/made/gar2.png" alt="">
+            <p>设计生产</p>
+        </li>
+        <li>
+            <img src="Public/image/made/gar3.png" alt="">
+            <p>仓储物流</p>
+        </li>
+        <li>
+            <img src="Public/image/made/gar4.png" alt="">
+            <p>配送安装</p>
+        </li>
+    </ul>
+</div>
+<!--四大体系-->
+<div class="Pmade-system">
+    <div class="Pmade-case-head Pmade-system-head">
+        <div class="Pmade-case-title">
+            <em class="Pmade-channel-em1"></em>
+            <p>仓储四大专属体系</p>
+            <em class="Pmade-channel-em2"></em>
+        </div>
+        <span>区别于市面传统公司</span>
+    </div>
+    <ul class="Pmade-system-list">
+        <li><img src="Public/image/made/sy1.jpg" alt=""></li>
+        <li><img src="Public/image/made/sy2.jpg" alt=""></li>
+        <li><img src="Public/image/made/sy3.jpg" alt=""></li>
+        <li><img src="Public/image/made/sy4.jpg" alt=""></li>
+    </ul>
+</div>
+<!--定制流程透明化-->
+<div class="Pmade-process">
+    <div class="Pmade-case-head Pmade-process-head">
+        <div class="Pmade-case-title">
+            <em class="Pmade-channel-em1"></em>
+            <p> 定制流程透明化</p>
+            <em class="Pmade-channel-em2"></em>
+        </div>
+        <span>定制一家人的欢乐时光</span>
+    </div>
+    <ul class="Pmade-process-list">
+        <li>
+            <div class="Pmade-process-img" style="background: #e03a3a">
+                <img src="Public/image/made/pro1.jpg" alt="">
+            </div>
+            <p style="color: #e03a3a">1.在线预约</p>
+        </li>
+        <li>
+            <div class="Pmade-process-img">
+                <img src="Public/image/made/pro2.jpg" alt="">
+            </div>
+            <p>2.免费量尺</p>
+        </li>
+        <li>
+            <div class="Pmade-process-img">
+                <img src="Public/image/made/pro3.jpg" alt="">
+            </div>
+            <p>3.确定设计方案</p>
+        </li>
+        <li>
+            <div class="Pmade-process-img">
+                <img src="Public/image/made/pro4.jpg" alt="">
+            </div>
+            <p>4.加工运输</p>
+        </li>
+        <li>
+            <div class="Pmade-process-img">
+                <img src="Public/image/made/pro5.jpg" alt="">
+            </div>
+            <p>5.免费安装</p>
+        </li>
+        <li>
+            <div class="Pmade-process-img">
+                <img src="Public/image/made/pro6.jpg" alt="">
+            </div>
+            <p>6.完美新家</p>
+        </li>
+    </ul>
+</div>
+<!--预约全屋定制-->
+<div class="Pmade-offer">
+    <div class="Pmade-case-head Pmade-process-head">
+        <div class="Pmade-case-title">
+            <em class="Pmade-channel-em1"></em>
+            <p>  预约全屋定制</p>
+            <em class="Pmade-channel-em2"></em>
+        </div>
+        <span>今日已有<em>4100</em>人预约</span>
+    </div>
+    <div class="Pmade-channel-input">
+        <form action="">
+            <div>
+                <div class="Pmade-channel-icon">
+                    <img src="Public/image/made/name.png" alt="">
+                </div>
+                <input type="text" placeholder="请输入您的称呼">
+            </div>
+            <div>
+                <div class="Pmade-channel-icon">
+                    <img src="Public/image/made/tel.png" alt="">
+                </div>
+                <input type="text" placeholder="请输入您的联系方式">
+            </div>
+            <div>
+                <select name="" id="">
+                    <option value="北京">北京</option>
+                </select>
+                <select name="" id="">
+                    <option value="东城区">东城区</option>
+                    <option value="西城区">西城区</option>
+                    <option value="朝阳区">朝阳区</option>
+                    <option value="密云去">密云去</option>
+                    <option value="大兴区">大兴区</option>
+                    <option value="石景山区">石景山区</option>
+                    <option value="海淀区">海淀区</option>
+                    <option value="通州区">通州区</option>
+                    <option value="昌平区">昌平区</option>
+                    <option value="丰台区">丰台区</option>
+                    <option value="房山区">房山区</option>
+                    <option value="平谷区">平谷区</option>
+                </select>
+            </div>
+            <button type="button">立即预约</button>
+            <span>声明：为了您的利益，您的隐私将被严格保密。请放心填写！</span>
+        </form>
+    </div>
+</div>
+<!--服务热线-->
+<div class="Phome-tel">
+    <p><em></em>24小时服务热线<em></em></p>
+    <div class="Phome-tel-num">
+        <img src="Public/image/home/tel.png" alt="">
+        <span>400-678-8988</span>
+    </div>
+</div>
+<!--版权所有-->
+<div class="Phome-copy">
+    <p>Copyright ©  2000-2019 北京今朝英迈木业有限公司 版权所有 </p>
+</div>
+<!--尾部-->
+<script src="Public/js/footer.js"></script>
+</body>
+<script>
+
+    //    第一个轮播图
+    var autoLb = false;          //autoLb=true为开启自动轮播
+    var autoLbtime = 1;         //autoLbtime为轮播间隔时间（单位秒）
+    var touch = true;           //touch=true为开启触摸滑动
+    var PslideBt = true;         //PslideBt=true为开启滚动按钮
+    var PslideNub;               //轮播图片数量
+
+    //窗口大小改变时改变轮播图宽高
+    $(window).resize(function () {
+        $(".Pslide").height($(".Pslide").width() * 0.56);
+    });
+
+
+    $(function () {
+        $(".Pslide").height($(".Pslide").width() * 0.56);
+        PslideNub = $(".Pslide .img").size();             //获取轮播图片数量
+        for (i = 0; i < PslideNub; i++) {
+            $(".Pslide .img:eq(" + i + ")").attr("data-Pslide-imgId", i);
+        }
+
+//根据轮播图片数量设定图片位置对应的class
+        if (PslideNub == 1) {
+            for (i = 0; i < PslideNub; i++) {
+                $(".Pslide .img:eq(" + i + ")").addClass("img3");
+            }
+        }
+        if (PslideNub == 2) {
+            for (i = 0; i < PslideNub; i++) {
+                $(".Pslide .img:eq(" + i + ")").addClass("img" + (i + 3));
+            }
+        }
+        if (PslideNub == 3) {
+            for (i = 0; i < PslideNub; i++) {
+                $(".Pslide .img:eq(" + i + ")").addClass("img" + (i + 2));
+            }
+        }
+        if (PslideNub > 3 && PslideNub < 6) {
+            for (i = 0; i < PslideNub; i++) {
+                $(".Pslide .img:eq(" + i + ")").addClass("img" + (i + 1));
+            }
+        }
+        if (PslideNub >= 6) {
+            for (i = 0; i < PslideNub; i++) {
+                if (i < 5) {
+                    $(".Pslide .img:eq(" + i + ")").addClass("img" + (i + 1));
+                } else {
+                    $(".Pslide .img:eq(" + i + ")").addClass("img5");
+                }
+            }
+        }
+
+//根据轮播图片数量设定轮播图按钮数量
+//if(PslideBt){
+//	for(i=1;i<=PslideNub;i++){
+//		$(".Pslide-bt").append("<span data-Pslide-bt='"+i+"' onclick='tz("+i+")'></span>");
+//	}
+//	$(".Pslide-bt").width(PslideNub*34);
+//	$(".Pslide-bt").css("margin-left","-"+PslideNub*17+"px");
+//}
+
+//自动轮播
+        if (autoLb) {
+            setInterval(function () {
+                right();
+            }, autoLbtime * 1000);
+        }
+
+
+        if (touch) {
+            k_touch();
+        }
+        PslideLi();
+        imgClickFy();
+    })
+
+    //右滑动
+    function right() {
+        var fy = new Array();
+        for (i = 0; i < PslideNub; i++) {
+            fy[i] = $(".Pslide .img[data-Pslide-imgId=" + i + "]").attr("class");
+        }
+        for (i = 0; i < PslideNub; i++) {
+            if (i == 0) {
+                $(".Pslide .img[data-Pslide-imgId=" + i + "]").attr("class", fy[PslideNub - 1]);
+            } else {
+                $(".Pslide .img[data-Pslide-imgId=" + i + "]").attr("class", fy[i - 1]);
+            }
+        }
+        imgClickFy();
+        PslideLi();
+    }
+
+    //左滑动
+    function left() {
+        var fy = new Array();
+        for (i = 0; i < PslideNub; i++) {
+            fy[i] = $(".Pslide .img[data-Pslide-imgId=" + i + "]").attr("class");
+        }
+        for (i = 0; i < PslideNub; i++) {
+            if (i == (PslideNub - 1)) {
+                $(".Pslide .img[data-Pslide-imgId=" + i + "]").attr("class", fy[0]);
+            } else {
+                $(".Pslide .img[data-Pslide-imgId=" + i + "]").attr("class", fy[i + 1]);
+            }
+        }
+        imgClickFy();
+        PslideLi();
+    }
+
+    //轮播图片左右图片点击翻页
+    function imgClickFy() {
+        $(".Pslide .img").removeAttr("onclick");
+        $(".Pslide .img2").attr("onclick", "left()");
+        $(".Pslide .img4").attr("onclick", "right()");
+    }
+
+    //修改当前最中间图片对应按钮选中状态
+    function PslideLi() {
+        var PslideList = parseInt($(".Pslide .img3").attr("data-Pslide-imgId")) + 1;
+        $(".Pslide-bt span").removeClass("on");
+        $(".Pslide-bt span[data-Pslide-bt=" + PslideList + "]").addClass("on");
+    }
+
+    //轮播按钮点击翻页
+    function tz(id) {
+        var tzcs = id - (parseInt($(".Pslide .img3").attr("data-Pslide-imgId")) + 1);
+        if (tzcs > 0) {
+            for (i = 0; i < tzcs; i++) {
+                setTimeout(function () {
+                    right();
+                }, 1);
+            }
+        }
+        if (tzcs < 0) {
+            tzcs = (-tzcs);
+            for (i = 0; i < tzcs; i++) {
+                setTimeout(function () {
+                    left();
+                }, 1);
+            }
+        }
+        PslideLi();
+    }
+
+
+    //触摸滑动模块
+    function k_touch() {
+        var _start = 0, _end = 0, _content = document.getElementById("Pslide");
+        _content.addEventListener("touchstart", touchStart, false);
+        _content.addEventListener("touchmove", touchMove, false);
+        _content.addEventListener("touchend", touchEnd, false);
+
+        function touchStart(event) {
+            var touch = event.targetTouches[0];
+            _start = touch.pageX;
+        }
+
+        function touchMove(event) {
+            var touch = event.targetTouches[0];
+            _end = (_start - touch.pageX);
+        }
+
+        function touchEnd(event) {
+            if (_end < -100) {
+                left();
+                _end = 0;
+            } else if (_end > 100) {
+                right();
+                _end = 0;
+            }
+        }
+    }
+
+
+    //    第二个轮播图
+    var mySwiper = new Swiper('.Pmade-case-list .swiper-container', {
+        pagination: '.Pmade-case-list .pagination',
+        loop: true,
+        grabCursor: true,
+        paginationClickable: true
+    })
+
+//    流程透明化
+    $('.Pmade-process-list li').on('touchstart',function () {
+       $(this).siblings().find('.Pmade-process-img').css('background','#545657').find('p').css('color','#545657');
+       $(this).siblings().find('p').css('color','#fff');
+       $(this).find('.Pmade-process-img').css('background','#e03a3a').find('p').css('color','#e03a3a');
+       $(this).find('p').css('color','#e03a3a');
+    })
+</script>
+</html>

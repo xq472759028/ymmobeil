@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="Public/js/jquery.min.js"></script>
+    <script src="Public/js/rem.js"></script>
+    <link rel="stylesheet" href="Public/css/public.css">
+
+</head>
+<body>
+<header>
+    <!--头部-->
+    <div class="ymhead">
+        <!--城市下拉-->
+        <div class="ymhead-city">
+            <div class="ymhead-back"></div>
+            <span>城市</span>
+        </div>
+        <p class="ymhead-content">英迈整装</p>
+        <!--导航下拉-->
+        <div class="ymhead-down ymhead-down-one"></div>
+    </div>
+    <!--城市下拉-->
+    <div class="ymhead-city-drop">
+        <div class="ymhead-city-navigation">
+            <div class="ymhead-city-back"></div>
+        </div>
+        <ul class="ymhead-city-list">
+            <li><a href="">北京</a></li>
+            <li><a href="">安徽</a></li>
+            <li><a href="">太原</a></li>
+            <li><a href="">西安</a></li>
+            <li><a href="">石家庄</a></li>
+        </ul>
+    </div>
+    <!--导航下拉列表-->
+    <div class="ymhead-list">
+        <ul class="ymhead-list-center">
+            <li>
+                <a href="home.html">
+                    <img src="Public/image/public/icon1.png" alt="">
+                    <span>官网首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="case.html">
+                    <img src="Public/image/public/icon2.png" alt="">
+                    <span>实景案例</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="Public/image/public/icon3.png" alt="">
+                    <span>英迈整装</span>
+                </a>
+            </li>
+            <li>
+                <a href="made.html">
+                    <img src="Public/image/public/icon4.png" alt="">
+                    <span>全屋定制</span>
+                </a>
+            </li>
+            <li>
+                <a href="design.html">
+                    <img src="Public/image/public/icon5.png" alt="">
+                    <span>美家设计师</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="Public/image/public/icon6.png" alt="">
+                    <span>美家攻略</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="Public/image/public/icon7.png" alt="">
+                    <span>VR体验</span>
+                </a>
+            </li>
+            <li>
+                <a href="line.html">
+                    <img src="Public/image/public/icon8.png" alt="">
+                    <span>线下体验馆</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="Public/image/public/icon9.png" alt="">
+                    <span>热门活动</span>
+                </a>
+            </li>
+            <li>
+                <a href="safe.html">
+                    <img src="Public/image/public/icon10.png" alt="">
+                    <span>品质保障</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="Public/image/public/icon11.png" alt="">
+                    <span>关于英迈</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<!--尾部-->
+<ul class="ymfoot">
+    <li>
+        <a href="">
+            <img src="Public/image/public/home1.png" alt="">
+            <span>官网首页</span>
+        </a>
+    </li>
+    <li>
+        <a href="">
+            <img src="Public/image/public/price1.png" alt="">
+            <span>免费报价</span>
+        </a>
+    </li>
+    <li>
+        <a href="">
+            <img src="Public/image/public/tel1.png" alt="">
+            <span>电话咨询</span>
+        </a>
+    </li>
+</ul>
+</body>
+</html>
+<script>
+    $('.ymhead-down').on('click', function () {
+        $('.ymhead-list').slideToggle();
+        $(this).toggleClass('ymhead-down-one');
+        $(this).toggleClass('ymhead-down-two');
+    });
+    $('.ymhead-city').on('click', function () {
+        $('.ymhead-city-drop').show();
+        $('.ymhead').hide();
+        $('.ymhead-list').hide();
+       if($('.ymhead-down').hasClass('ymhead-down-two')){
+           $('.ymhead-down').removeClass('ymhead-down-two');
+           $('.ymhead-down').addClass('ymhead-down-one');
+       }
+    });
+    $('.ymhead-city-back').on('click', function () {
+        $('.ymhead-city-drop').hide();
+        $('.ymhead').show();
+    })
+</script>

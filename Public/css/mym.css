@@ -1,0 +1,878 @@
+img{object-fit: cover}
+/* 公共部分 */
+*{margin:0;padding:0;}
+html,body { }
+body{ font-family:"microsoft yahei";background: #fff;width:100%;max-width: 7.5rem;margin: 0 auto;margin-top: 0.67rem}
+
+html {font-family: sans-serif; -ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;  }
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {  display: block;}
+audio,canvas,progress,video {  display: inline-block; vertical-align: baseline;  }
+audio:not([controls]) {display: none;height: 0;  }
+[hidden],template {  display: none;}
+a { background-color: transparent;}
+a:active,a:hover {  outline: 0;}
+abbr[title] {  border-bottom: 1px dotted;}
+b,strong {  font-weight: bold;}
+dfn {  font-style: italic;}
+h1 {  font-size: 2em;  margin: 0.67em 0;}
+mark {  background: #ff0;  color: #000;}
+small {  font-size: 80%;}
+sub,sup {  font-size: 75%;  line-height: 0;  position: relative;  vertical-align: baseline;}
+sup {  top: -0.5em;}
+sub {  bottom: -0.25em;}
+img {  border: 0;}
+svg:not(:root) {  overflow: hidden;}
+
+hr {-moz-box-sizing: content-box;box-sizing: content-box;height: 0;}
+pre {overflow: auto;  }
+code, kbd, pre, samp {font-family: monospace, monospace;font-size: 1em;  }
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit; /* 1 */
+    font: inherit; /* 2 */
+    margin: 0; /* 3 */
+}
+button {
+    overflow: visible;
+}
+button,
+select {
+    text-transform: none;
+}
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+button[disabled],html input[disabled] {  cursor: default;}
+button::-moz-focus-inner,input::-moz-focus-inner {  border: 0;  padding: 0;}
+input {  line-height: normal;}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+fieldset {  border: 1px solid #c0c0c0;  margin: 0 2px;  padding: 0.35em 0.625em 0.75em;}
+legend {  border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+textarea {  overflow: auto;}
+optgroup {  font-weight: bold;}
+
+td,th {  padding: 0;}
+
+
+
+table{border-collapse:collapse;border-spacing:0;}
+img{border:0}
+ul{list-style:none;}
+
+input,textarea,select,option,button{font-family: "microsoft yahei";}
+.clear{ clear:both;}
+a{text-decoration:none;outline: none;}
+a,button,input,textarea,select{-webkit-tap-highlight-color:rgba(255,0,0,0); /*-webkit-appearance: none;*/ }/* 1.去除android a/button/input标签被点击时产生的边框 2.去除ios a标签被点击时产生的半透明灰色背景 */
+
+textarea{resize:none;}/*禁止改变大小*/
+/*解决firefox按钮文字难以垂直居中问题*/
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner{
+    border:none;padding:0;
+}
+input,textarea,select,option,button,form,fieldset{margin:0;padding:0;border:none;outline:none;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+img{object-fit: cover}
+a:active{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)!important;
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+                                        /**
+                                         * ============================================================================
+                                         * 产品页面：今朝首页装修页面样式表开始！！！！！！！
+                                         * ============================================================================
+                                         * Author: 今朝装饰设计有限公司
+                                         * Date: 2019年06月28日
+                                        */
+
+
+/*banner图*/
+.Phome-banner{width: 100%;height: 3.8rem}
+.Phome-banner img{display: block;width: 100%;height: 100%}
+.Phome-banner .swiper-container{width: 100%;height: 100%}
+.Phome-banner .swiper-container img{display: block;width: 100%;height: 100%}
+.Phome-banner .pagination{width: 100%;height: 0.2rem;position: absolute;left: 0;bottom: 0.28rem;display: flex;justify-content: center; flex-wrap: nowrap;}
+.Phome-banner .pagination span{display:block;}
+.Phome-banner .swiper-pagination-switch{background: rgba(231,212,207,1);width: 0.2rem;height: 0.2rem;border-radius:50%;margin-right: 0.1rem;}
+.Phome-banner .pagination span:last-child{margin-right: 0}
+.Phome-banner .swiper-active-switch{width: 0.2rem;height: 0.2rem;background: rgba(219,80,88,1)}
+
+/*4个案例跳转*/
+.Phome-fore{width: 100%;height: 1.48rem;margin: 0.48rem auto 0.38rem}
+.Phome-fore li{width: 25%;height: 100%;float: left}
+.Phome-fore li a{display: block;width: 100%;height: 100%}
+.Phome-fore li img{display: block;width: 1.02rem;height: 1.02rem;margin: 0 auto}
+.Phome-fore li span{display: block;width: 100%;text-align: center;font-size: 0.26rem;color: #333;line-height: 0.26rem;margin-top: 0.2rem}
+
+/*装修需要多少钱*/
+.Phome-need{width: 100%;border-top: 0.18rem solid #f5f5f5}
+.Phome-need-title{width: 100%;overflow: hidden}
+.Phome-need-title h2{font-size: 0.48rem;text-align: center;line-height: 0.48rem;padding-top: 0.58rem}
+.Phome-need-title p{font-size: 0.2rem;color: #999;text-align: center;line-height: 0.2rem;padding-top: 0.17rem}
+.Phome-need-title p span{display: inline-block;color: #e03a3a}
+.Phome-need form{display: block;margin: 0 0.3rem;margin-top: 0.32rem}
+.Phome-need form input{display: block;width: 100%;height: 0.9rem;border: 0.01rem solid #cfcfcf;box-sizing: border-box;background: #f5f5f5;padding-left: 0.2rem;font-size: 0.24rem;color: #999;margin-bottom:0.28rem;border-radius: 0.08rem}
+.Phome-need form input:nth-child(2){margin-bottom: 0}
+.Phome-need form p{font-size: 0.2rem;color: #999;text-align: center;line-height: 0.2rem;margin-top: 0.2rem}
+.Phome-need form button{display: block;width: 100%;height: 0.9rem;border-radius: 0.08rem;background: #e55757;color: #fff;font-size: 0.36rem;text-align: center;line-height: 0.9rem;margin-top: 0.36rem}
+
+/*美家案例*/
+.Phome-case{width: 100%;overflow: hidden;margin-top: 0.8rem}
+.Phome-case-center{margin: 0 0.2rem}
+.Phome-title{width: 100%;overflow: hidden}
+.Phome-case-left{float: left}
+.Phome-title-left img{display: block;float: left;margin-top: 0.02rem}
+.Phome-title-one{width: 0.39rem;height: 0.3rem}
+.Phome-title-left p{float: left;margin-left: 0.12rem;font-size: 0.42rem;color: #333;font-weight: bold;line-height: 0.42rem}
+.Phome-title-right{float: right}
+.Phome-title-right p{float: left;font-size: 0.24rem;color: #999;margin-top:0.07rem;line-height: 0.24rem}
+.Phome-title-right img{display: block;float: right;margin: 0.05rem 0.1rem 0 0.1rem;width: 0.28rem;height: 0.28rem}
+.Phome-case-title{width: 100%;border-top: 0.01rem solid #e0e0e0;padding-top: 0.38rem;margin-top: 0.18rem;overflow: hidden}
+.Phome-case-title li{float: left;margin-right: 0.5rem;}
+.Phome-case-title li a{font-size: 0.28rem;color: #999;line-height: 0.28rem;display: block;}
+.Phome-case-list{width: 100%;margin-top: 0.3rem}
+.Phome-case-list li{float: left;width: 3.46rem;height: 3.05rem;margin-right: 0.18rem}
+.Phome-case-list li:nth-child(2n){margin-right: 0}
+.Phome-case-img{display: block;width: 100%;height: 2.32rem;border-radius: 0.05rem;overflow: hidden;position: relative}
+.Phome-case-img em{display: block;position: absolute;left: 0;top: 0.2rem;width: 1.08rem;height: 0.4rem;background: url("../image/home/hot.png") no-repeat center;background-size: cover}
+.Phome-case-img img{display: block;width: 100%;height: 100%}
+.Phome-case-list li p{text-align: left;font-size: 0.22rem;color: #333;line-height: 0.22rem;padding-top: 0.16rem}
+.Phome-case-list li p span{display: inline-block;margin-right: 0.14rem}
+
+
+/*家装产品服务*/
+.Phome-serve{width: 100%;overflow: hidden;padding-top: 0.6rem;border-top: 0.18rem solid #f5f5f5;margin-top: 0.2rem;padding-bottom: 0.58rem}
+/*.Phome-serve-title{width: 100%;height: 0.48rem;padding-top: 0.38rem;border-top: 0.01rem solid #e0e0e0;margin-top: 0.2rem}*/
+/*.Phome-serve-title li{float: left}*/
+.Phome-serve .wrapper03 {position:relative;height: 0.85rem;width: 100%;overflow: hidden;margin:0 auto;margin-top:0.2rem;border-top: 0.01rem solid #e0e0e0;}
+.Phome-serve .wrapper03 .scroller {position:absolute}
+.Phome-serve .wrapper03 .scroller li {height: 0.85rem;color:#333;float: left;line-height: 1rem;font-size: .28rem;text-align: center;position: relative}
+.Phome-serve .wrapper03 .scroller li a{color:#999;display:block;margin-right:0.7rem;}
+.Phome-serve .wrapper03 .scroller li:last-child a{;margin-right:0;}
+.Phome-serve .wrapper03 .scroller li.cur a{color:#333;height:.9rem;}
+.Phome-serve .wrapper03 .scroller li em{position: absolute;left: 0;bottom: 0;width: 0.28rem;height: 0.06rem;background: #eee}
+.Phome-serve .wrapper03 .scroller li.cur em{background: #e03a3a}
+.Phome-serve-list{width: 100%;height: 4rem;position: relative;margin-top: 0.28rem;border-radius: 0.1rem;overflow: hidden}
+.Phome-serve-list li{position: absolute;left: 0;top: 0;width: 100%;height: 100%;}
+.Phome-serve-list li img{display: block;width: 100%;height: 100%}
+.Phome-serve-list li p{position: absolute;width: 100%;height: 0.6rem;background: rgba(0,0,0,0.5);left: 0;bottom: 0;line-height: 0.6rem;}
+.Phome-serve-list li p span{font-size: 0.24rem;display:block;color: #fff;padding-left: 0.2rem}
+
+
+/*优质标杆工程*/
+.Phome-title-two{width: 0.38rem;height: 0.38rem}
+.Phome-good{width: 100%;overflow: hidden;padding-top: 0.6rem;border-top: 0.18rem solid #f5f5f5;margin-top: 0.2rem;padding-bottom: 0.58rem}
+.Phome-good .wrapper04 {position:relative;height: 4.1rem;width: 100%;overflow: hidden;margin:0 auto;margin-top:0.38rem;border-top: 0.01rem solid #e0e0e0;}
+.Phome-good .wrapper04 .scroller {position:absolute}
+.Phome-good .wrapper04 .scroller li {width:4.4rem;height: 4.1rem;float: left;box-shadow: 0px 12px 8px -12px #e1e1e1;border-radius: 0.1rem;overflow: hidden}
+.Phome-good .wrapper04 .scroller li a{display:block;margin-right: 0.18rem;box-shadow: 0px 12px 8px -12px #e1e1e1}
+.Phome-good .wrapper04 .scroller li:last-child a{;margin-right:0;}
+.Phome-good-img{width: 100%;height: 3rem}
+.Phome-good-img img{display: block;width: 100%;height: 100%}
+.Phome-good-con{width: 4.2rem;height: 1.1rem;margin: 0 auto}
+.Phome-good-con p{font-size: 0.28rem;color: #333;line-height: 0.28rem;padding-top: 0.2rem}
+.Phome-good-con span{display: block;font-size: 0.22rem;color: #999;line-height: 0.22rem;padding-top: 0.15rem}
+
+
+/*美家视屏*/
+.Phome-title-three{width: 0.4rem;height: 0.25rem}
+.Phome-video{width: 100%;overflow: hidden;padding-top: 0.6rem;border-top: 0.18rem solid #f5f5f5;margin-top: 0.2rem;padding-bottom: 0.58rem}
+.Phome-video-con{width: 100%;height:4rem;margin-top: 0.38rem;position: relative;border-radius: 0.1rem;overflow: hidden;background: rgba(0,0,0,0.5)}
+.Phome-video-con img{display: block;width: 100%;height: 100%;position: absolute;left: 0;top: 0;z-index: 5}
+.Phome-video-con video{display: block;width: 100%;height: 100%}
+.Phome-video-list{width: 100%;height: auto;overflow: hidden}
+.Phome-video-list li{width: 100%;height: 1.2rem;margin-top: 0.28rem}
+.Phome-video-list li a{display: block;width: 100%;height: 100%}
+.Phome-video-left{float: left;width: 1.8rem;height: 1.2rem;border-radius: 0.05rem;position: relative;overflow: hidden}
+.Phome-video-left img{width: 100%;height: 100%;}
+.Phome-video-on{display: block}
+.Phome-video-of{display: none;left: 0;top: 0;position: absolute}
+.Phome-video-right{float: right;width: 5.1rem;height: 100%;position: relative}
+.Phome-video-title{width: 100%;font-size: 0.24rem;color: #333;line-height: 0.36rem}
+.Phome-video-ins{position: absolute;left: 0;bottom: 0.1rem;width: 100%}
+.Phome-video-ins span{display: block;float: left;font-size: 0.18rem;color: #999}
+.Phome-video-ins span:last-child{float: right}
+
+/*选择英迈的五大理由*/
+.Phome-choice{width: 100%;overflow: hidden;padding-top: 0.6rem;border-top: 0.18rem solid #f5f5f5;margin-top: 0.2rem;padding-bottom: 0.5rem}
+.Phome-choice-list{width: 100%;margin-top: 0.38rem}
+.Phome-choice-list li{float: left;height: 2.3rem}
+.Phome-choice-list li:first-child{width: 2.3rem;margin-right: 0.1rem;margin-bottom: 0.1rem}
+.Phome-choice-list li:nth-child(2){width: 4.7rem;margin-bottom: 0.1rem}
+.Phome-choice-list li:nth-child(3),.Phome-choice-list li:nth-child(4){width: 2.3rem;margin-right: 0.1rem;}
+.Phome-choice-list li:nth-child(5){width: 2.3rem;}
+.Phome-choice-list li img{display: block;width: 100%;height: 100%}
+
+/*服务热线*/
+.Phome-tel{width: 100%;height: 1.67rem;border-top: 0.18rem solid #f6f6f6;}
+.Phome-tel p{font-size: 0.32rem;line-height: 0.32rem;height: 0.32rem;text-align: center;padding-top: 0.5rem;overflow: hidden}
+.Phome-tel p em{display: inline-block;width: 0.3rem;height: 0.03rem;background: #dcdcdc;margin-bottom: 0.1rem}
+.Phome-tel p em:first-child{margin-right: 0.1rem}
+.Phome-tel p em:last-child{margin-left: 0.1rem}
+.Phome-tel-num{text-align: center;padding-top: 0.2rem;height: 0.33rem}
+.Phome-tel-num img{display:block;float:left;width: 0.38rem;height: 0.33rem;margin-left: 2.03rem}
+.Phome-tel-num span{display:block;float:left;font-size: 0.4rem;color: #de3535;font-weight: bold;margin-left: 0.18rem;line-height: 0.33rem}
+
+/*版权所有*/
+.Phome-copy{width: 100%;height: 1.36rem;background: #f6f6f6;overflow: hidden}
+.Phome-copy p{width: 6rem;font-size: 0.24rem;color: #999;text-align: center;line-height: 0.36rem;margin: 0 auto;margin-top: 0.38rem}
+
+
+                                    /**
+                                     * ============================================================================
+                                     * 产品页面：今朝首页装修页面样式表开始！！！！！！！
+                                     * ============================================================================
+                                     * Author: 今朝装饰设计有限公司
+                                     * Date: 2019年06月28日
+                                    */
+
+
+/*banner图*/
+.Pcase-banner{width: 100%;height: 5.84rem;background: url("../image/offer/banner.jpg") no-repeat center;background-size: cover}
+/*5秒计算报价*/
+.Pcase-cale{width: 100%;}
+.Pcase-title{width: 100%;padding-top: 1.08rem;text-align: center;line-height: 0.4rem;color: #333;font-weight: bold;overflow: hidden;font-size: 0.4rem}
+.Pcase-title span{display: inline-block;color: #efb85c}
+.Pcase-input{width: 100%;margin-top: 0.4rem}
+.Pcase-input form{display: block;width: 6.5rem;margin: 0 auto;padding-bottom: 0.93rem;position: relative}
+.Pcase-input form p{width: 100%;height: 0.88rem;border-radius: 0.1rem;background: #faf7f2;overflow: hidden;position: relative;margin-bottom: 0.2rem}
+.Pcase-input form p input{display: block;width: 6.3rem;height:100%;padding-left: 0.2rem;font-size: 0.26rem;color: #333;background: none}
+.Pcase-input form p em{position: absolute;font-style: normal;font-size: 0.3rem;color: #333;top: 0.3rem;right: 0.2rem;line-height: 0.3rem;display: block}
+.Pcase-input form button{display: block;position:absolute;left:0;right:0;bottom:-0.4rem;margin:auto;width: 4.43rem;height: 0.88rem;background: #de3535;border-radius: 0.5rem;font-size: 0.4rem;color: #fefefe;text-align: center;line-height: 0.88rem;z-index: 20}
+
+/*3大特权*/
+.Pcase-power{width: 100%;background: #fbfbfb;overflow: hidden}
+.Pcase-power-title{width: 100%;margin-top: 1.15rem}
+.Pcase-power-title p{font-size: 0.36rem;color: #333;text-align: center;line-height: 0.36rem}
+.Pcase-power-title span{display: block;font-size: 0.46rem;color: #ebaf4b;text-align: center;line-height: 0.46rem;padding-top: 0.2rem}
+.Pcase-power-con{width: 100%}
+.Pcase-power-list{width: 7rem;height: 3rem;margin: 0 auto}
+.Pcase-power-word{width: 50%;height: 100%;float: left}
+.Pcase-power-word h3{font-size: 0.6rem;color: #ebaf4b;font-weight: bold;line-height: 0.6rem;text-align: right;padding-top: 0.87rem}
+.Pcase-power-word p{font-size: 0.3rem;color: #333;text-align: right;line-height: 0.3rem;padding-top: 0.26rem}
+.Pcase-power-word span{display: block;font-size: 0.24rem;color: #999;text-align: right;line-height: 0.24rem;padding-top: 0.15rem}
+.Pcase-power-img{float: left;width: 50%;height: 100%}
+.Pcase-power-img img{display: block;width: auto;height: auto;max-height: 2.25rem;margin: 0 auto;margin-top: 0.4rem;}
+.Pcase-power-wordto h3,.Pcase-power-wordto p,.Pcase-power-wordto span{text-align: left!important;}
+.Pcase-power-img3{max-height: 1.83rem!important;margin-top: 0.7rem!important;}
+
+
+
+
+                    /**
+                     * ============================================================================
+                     * 产品页面：今朝首页案例页面样式表开始！！！！！！！
+                     * ============================================================================
+                     * Author: 今朝装饰设计有限公司
+                     * Date: 2019年06月28日
+                    */
+
+/*筛选开始*/
+.filter {width: 100%;height: 0.7rem;max-width:7.5rem;margin:auto;background: #fff;position: fixed;left: 0rem;top: 0.88rem;right:0rem;border-top: 0.01rem solid #d8d8d8;border-bottom: 0.01rem solid #d8d8d8;z-index: 10;}
+.filter-center {width:100%;height: 100%;display: flex;justify-content: space-between;flex-wrap: wrap;}
+.filter-list {width: 25%;font-size: 0.24rem;color: #666;line-height: 0.7rem;text-align: center;border-right: 0.01rem solid #d8d8d8;box-sizing: border-box}
+.filter-list:last-child{border-right: 0}
+.filter-list > p {display: inline-block}
+.filter-list > i {display: inline-block;width: 0.15rem;height: 0.1rem;}
+.icon-sanjiaoxing{background: url("../image/case/down.png") no-repeat center;background-size: cover}
+.icon-rotate {
+    /*transform: translateY(0rem) rotate(180deg)!important;*/
+    /*-webkit-transform:  translateY(0rem) rotate(180deg)!important;*/
+    /*-moz-transform: translateY(0rem) rotate(180deg)!important;*/
+    /*-o-transform: translateY(0rem) rotate(180deg)!important;*/
+    /*color: #00a75b!important;*/
+    background: url("../image/case/up.png") no-repeat center;background-size: cover
+}
+
+.filter-drop {position: absolute;left: 0rem;top: 0.71rem;background: rgba(0,0,0,0.5);width: 100%;height: 100vh;padding: 0rem 0rem 0.15rem 0rem;display: none;z-index: 10000;}
+.filter-list-p {color: #de3535;}
+.filter-down {padding: 0rem 0.15rem;padding-bottom: 0.15rem;height: auto;background: #fff;display: flex;justify-content: space-between;flex-wrap: wrap;}
+.filter-down li {width: 2.2rem;height: 0.56rem;border:0.01rem solid #d8d8d8;box-sizing:border-box;font-size: 0.24rem;color: #666;border-radius: 0.05rem;text-align: center;margin-top: 0.3rem;line-height: 0.56rem}
+.filter-down li:first-child {color: #de3535;}
+.filter-down li:last-child{margin-bottom: 0.72rem}
+
+/*列表*/
+.Pcase-list{width: 100%;padding-bottom: 0.98rem;overflow: hidden;margin-top: 1.89rem;border-bottom: 0.01rem solid #ebebeb}
+.Pcase-list>li{width: 7.1rem;height: 5.15rem;margin: 0 auto}
+.Pcase-list-img{width: 100%;height: 4rem}
+.Pcase-list-img img{display: block;width: 100%;height: 100%}
+.Pcase-list-ins{width: 100%;height: 1.15rem}
+.Pcase-list-ins h3{font-size: 0.3rem;color: #333;text-align: center;line-height: 0.3rem;padding-top: 0.2rem;font-weight: normal}
+.Pcase-list-ins p{font-size: 0.24rem;color: #666;text-align: center;line-height: 0.24rem;padding-top: 0.15rem}
+.Pcase-list-ins p span{display: inline-block}
+
+/*页码*/
+.Pcase-page{width: 100%;height: 0.8rem;border-top: 0.2rem solid #f6f6f6;}
+.Pcase-page-list{width: 100%;height: 100%;border-bottom: 0.01rem solid #ebebeb;border-top: 0.01rem solid #ebebeb;box-sizing: border-box;display: flex;justify-content: space-around;flex-wrap: wrap}
+.Pcase-page-ins{font-size: 0.3rem;color: #999;line-height: 0.8rem;text-align: center;display: block;width: auto;height: 100%}
+.Pcase-page-ins span{display: inline-block}
+
+
+
+                                /**
+                                 * ============================================================================
+                                 * 产品页面：今朝首页案例页面样式表开始！！！！！！！
+                                 * ============================================================================
+                                 * Author: 今朝装饰设计有限公司
+                                 * Date: 2019年06月28日
+                                */
+
+.Pline{width: 100%;height: auto;overflow: hidden}
+.Pline-list{width: 7.1rem;height: 6.6rem;margin: 0 auto;box-shadow: 0px 12px 8px -12px #e1e1e1;margin-bottom: 0.6rem}
+.Pline-list-img{width: 100%;height: 4rem}
+.Pline-list-img img{display: block;width: 100%;height: 100%}
+.Pline-list h3{font-size: 0.3rem;color: #333;text-align: center;line-height: 0.3rem;padding-top: 0.4rem;font-weight: normal}
+.Pline-list p{font-size: 0.24rem;text-align: center;line-height: 0.24rem;color: #666;padding-top: 0.3rem}
+.Pline-list p span{display: inline-block;margin-right: 0.6rem}
+.Pline-list p span:last-child{margin-right: 0}
+.Pline-list button{display: block;width: 4rem;height: 0.6rem;background: #de3535;color: #fff;font-size: 0.24rem;text-align: center;line-height: 0.6rem;margin: 0 auto;margin-top: 0.4rem}
+
+
+                                /**
+                                 * ============================================================================
+                                 * 产品页面：今朝首页案例页面样式表开始！！！！！！！
+                                 * ============================================================================
+                                 * Author: 今朝装饰设计有限公司
+                                 * Date: 2019年06月28日
+                                */
+
+/*banner图*/
+.Pcased-banner{width: 100%;height: 4.2rem;background: url("../image/case/banner.jpg") no-repeat center}
+.Pcased-detail{width: 100%;height: auto;}
+.Pcased-center{width: 7.1rem;height: auto;margin: 0 auto;position: relative;display:table}
+.Pcased-design{width: 100%;height: 1.5rem;box-shadow: 0px 12px 8px -12px #e1e1e1;position: absolute;left: 0;top: -0.75rem;background: #fff;}
+.Pcased-design-left{float: left;margin-left: 0.3rem;height: 100%}
+.Pcased-design-img{width: 1.02rem;height: 1.02rem;border-radius: 50%;margin-top: 0.24rem;float: left;overflow: hidden}
+.Pcased-design-img img{display: block;width: 100%;height: 100%}
+.Pcased-design-word{float: left;margin-left: 0.22rem;}
+.Pcased-design-word p{font-size: 0.36rem;color: #333;line-height: 0.36rem;padding-top: 0.42rem;font-weight: bold}
+.Pcased-design-word span{display: block;font-size: 0.26rem;color: #666;line-height: 0.26rem;padding-top: 0.13rem}
+.Pcased-design button{display: block;float: right;width: 2rem;height: 0.6rem;margin-top: 0.45rem;margin-right: 0.4rem;font-size: 0.26rem;color: #fff;text-align: center;line-height: 0.6rem;background: #de3535}
+
+/*户型、面积*/
+.Pcased-list{width: 100%;height: 2.2rem;border-top: 0.01rem solid #e5e5e5;border-bottom: 0.01rem solid #e5e5e5;box-sizing: border-box;display: flex;justify-content: space-around;flex-wrap: wrap;margin-top: 1.36rem;position: relative;padding-bottom: 0.39rem;}
+.Pcased-list>li{height: 50%;width: 30%;}
+.Pcased-list>li>p{display:block;float:left;font-size: 0.3rem;color: #212121;line-height: 0.3rem;padding-top: 0.5rem}
+.Pcased-list>li>span{display:block;float:left;font-size: 0.2rem;color: #666;margin-left: 0.08rem;line-height: 0.2rem;padding-top: 0.6rem}
+.Pcased-list>li:nth-child(2),.Pcased-list>li:nth-child(5){display: flex;justify-content: center;flex-wrap: nowrap}
+.Pcased-list-line{position: absolute;width: 6.5rem;height: 0.02rem;background: #ececec;left: 0;right: 0;top: 0;bottom: 0;margin: auto}
+
+/*横线*/
+.Pcased-lines{width: 100%;height: 0.2rem;background: #f6f6f6;border-top: 0.01rem solid #ebebeb;border-bottom: 0.01rem solid #ebebeb}
+/*平面图*/
+.Pcased-plane{width: 7.1rem;margin:0 auto;overflow: hidden}
+.Pcased-title{width: 100%;overflow: hidden}
+.Pcased-title p{font-size: 0.3rem;color: #2e2e2e;text-align: center;line-height: 0.3rem;padding-top: 0.4rem;font-weight: bold}
+.Pcased-title em{display: block;width: 0.4rem;height: 0.04rem;background: #f1707a;margin: 0 auto;margin-top: 0.2rem}
+.Pcased-plane-img{width: auto;max-width: 100%;height: auto;margin: 0.44rem auto 0.55rem}
+.Pcased-plane-img img{display: block;width: 100%}
+.Pcased-plane span{display: block;width: 100%;font-size: 0.24rem;color: #666;line-height: 0.36rem;padding-bottom: 0.75rem}
+.Pcased-effect-list{width: 7.1rem;margin:0 auto;height: auto;overflow: hidden;padding-top: 0.35rem;padding-bottom: 0.5rem}
+.Pcased-effect{width: 100%;overflow: hidden}
+.Pcased-effect .Pcased-title p{padding-top: 0.5rem}
+.Pcased-effect span{display: block;width: 100%;font-size: 0.24rem;color: #666;line-height: 0.36rem;padding: 0.2rem 0}
+.Pcased-effect-img{width: 100%;height: auto}
+.Pcased-effect-img img{display: block;width: 100%}
+
+
+                            /**
+                             * ============================================================================
+                             * 产品页面：今朝首页案例页面样式表开始！！！！！！！
+                             * ============================================================================
+                             * Author: 今朝装饰设计有限公司
+                             * Date: 2019年06月28日
+                            */
+/*设计师列表*/
+.Pdesign{width: 100%;height: auto;overflow: hidden;margin-top: 1.6rem;padding-bottom: 0.32rem}
+.Pdesign-list{width: 7.1rem;height: 2.7rem;margin: 0 auto;margin-top: 0.3rem;padding-bottom: 0.3rem;border-bottom: 0.01rem solid #d8d8d8}
+.Pdesign-ins{width: 100%;height: 0.74rem;}
+.Pdesign-photo{width: 0.74rem;height: 0.74rem;border-radius: 50%;float: left;margin-right: 0.15rem;overflow: hidden}
+.Pdesign-photo img{display: block;width: 100%;height: 100%}
+.Pdesign-word{float: left;width: 6.21rem;height: 100%}
+.Pdesign-name{width: 100%;overflow: hidden}
+.Pdesign-name p{float:left;font-size: 0.34rem;color: #333;margin-right: 0.1rem;font-weight: bold;line-height: 0.34rem;margin-top: 0.03rem}
+.Pdesign-name span{display: block;float:left;font-size: 0.16rem;color: #fff;padding: 0.05rem 0.1rem;background: #de3535;line-height: 0.22rem;margin-top: 0.1rem;border-radius: 0.05rem}
+.Pdesign-type{width: 100%;padding-top: 0.17rem}
+.Pdesign-type span{display: block;float: left;font-size: 0.2rem;color: #666;line-height: 0.2rem}
+.Pdesign-type span:first-child{width: 1.51rem}
+.Pdesign-type span:nth-child(2){width: 1.62rem}
+.Pdesign-type span:last-child{width: 3rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+.Pdesign-img{width: 100%;height: 1.74rem;margin-top: 0.2rem;display: flex;justify-content: space-between;flex-wrap: nowrap}
+.Pdesign-img li{width: 2.3rem;height: 100%}
+.Pdesign-img li img{display: block;width: 100%;height: 100%}
+
+
+
+                        /**
+                         * ============================================================================
+                         * 产品页面：今朝首页案例页面样式表开始！！！！！！！
+                         * ============================================================================
+                         * Author: 今朝装饰设计有限公司
+                         * Date: 2019年06月28日
+                        */
+.Pvideo{width: 100%;height: auto;overflow: hidden}
+.Pvideo-list{width: 7.1rem;height: 1.6rem;padding-bottom: 0.3rem;border-bottom: 0.01rem solid #e5e5e5;margin:0 auto;margin-top: 0.3rem}
+.Pvideo-img{float: left;width: 2.4rem;height: 1.6rem;position: relative}
+.Pvideo-img img{display: block;width: 100%;height: 100%}
+.Pvideo-img-shadow{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: url("../image/home/play.png") no-repeat center;background-size: cover}
+.Pvideo-con{float: right;width: 4.45rem;height: 100%;position: relative}
+.Pvideo-con h3{font-size: 0.28rem;color: #333;}
+.Pvideo-con b{font-weight: normal;font-size: 0.22rem;color: #666;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;line-height: 0.22rem;left: 0;top: 0.85rem;position: absolute}
+.Pvideo-con p{position: absolute;left: 0;bottom: 0.05rem;width: 100%;line-height: 0.2rem}
+.Pvideo-con p span{font-size: 0.2rem;color: #999;display: inline-block}
+.Pvideo-con p span:first-child{margin-right: 0.2rem}
+
+
+
+
+                        /**
+                         * ============================================================================
+                         * 产品页面：今朝首页案例页面样式表开始！！！！！！！
+                         * ============================================================================
+                         * Author: 今朝装饰设计有限公司
+                         * Date: 2019年06月28日
+                        */
+
+/*视屏播放*/
+.Pvideod{width: 100%;height: auto;padding-bottom: 0.3rem;overflow: hidden}
+.Pvideod-title{width: 7.1rem;height: 1.15rem;margin: 0 auto}
+.Pvideod-title p{font-size: 0.34rem;color: #333;line-height: 0.34rem;padding-bottom: 0.3rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+.Pvideod-title span{display: block;font-size: 0.2rem;color: #999;line-height: 0.2rem;padding-top: 0.2rem}
+.Pvideod-tv{width: 100%;height: 4.22rem;position: relative;background: rgba(0,0,0,0.5)}
+.Pvideod-tv video{display: block;width: 100%;height: 100%}
+.Pvideod-tv img{display: block;position: absolute;left: 0;top: 0;width: 100%;height: 100%;z-index: 5}
+
+/*往期推荐*/
+.Pvideod-commend{width: 100%;overflow: hidden;padding-bottom: 0.35rem}
+.Pvideod-commend-title{width: 7.1rem;margin: 0 auto;border-top: 0.2rem solid #f6f6f6;overflow: hidden}
+.Pvideod-commend-title p{font-size: 0.3rem;color: #333;line-height: 0.3rem;margin-top: 0.3rem;padding-left: 0.2rem;border-left: 0.04rem solid #de3535}
+.Pvideod-commend .Pvideo-list:first-child{margin-top: 0.4rem}
+.Pvideod-commend .Pvideo-list:last-child{margin-bottom: 0}
+.Pvideod-commend .Pvideo-list a{display: block;width: 100%;height: 100%}
+.Pvideo-more{width: 2.7rem;height: 0.68rem;border-radius: 0.5rem;border: 0.02rem solid #e60012;font-size: 0.3rem;color: #de3535;text-align: center;line-height: 0.68rem;box-sizing: border-box;margin:0 auto;margin-top: 0.32rem;display: block}
+
+
+                                /**
+                                 * ============================================================================
+                                 * 产品页面：今朝全屋定制页面样式表开始！！！！！！！
+                                 * ============================================================================
+                                 * Author: 今朝装饰设计有限公司
+                                 * Date: 2019年06月28日
+                                */
+
+
+/*banner图*/
+.Pmade-banner{width: 100%;height: 9.26rem;background: url("../image/made/banner.jpg") no-repeat center;background-size: cover}
+/*全屋通道报名框*/
+.Pmade-channel{width: 100%;height: 7.94rem;background: url("../image/made/channel.jpg") no-repeat center;background-size: cover;overflow: hidden}
+.Pmade-channel-center{width: 7.1rem;height: 5.57rem;background: #fff;margin: 0 auto;margin-top: 0.63rem}
+.Pmade-channel-title{width: 100%;height:1.75rem;text-align: center;}
+.Pmade-channel-title em{display: inline-block;width: 1.02rem;height: 0.27rem;}
+.Pmade-channel-em1{background: url("../image/made/line-left.png") no-repeat center;background-size: cover}
+.Pmade-channel-em2{background: url("../image/made/line-right.png") no-repeat center;background-size: cover}
+.Pmade-channel-title p{font-size: 0.52rem;color: #e03a3a;line-height: 0.52rem;display: inline-block}
+.Pmade-channel-input{width: 100%;}
+.Pmade-channel-input>form>div{width: 6.6rem;height: 0.8rem;margin: 0 auto;border: 0.01rem solid #cbcbcb;box-sizing: border-box;background: #f6f6f6;border-radius: 0.1rem;overflow: hidden}
+.Pmade-channel-icon{width: 0.58rem;height: 0.38rem;border-right:0.01rem solid #cbcbcb;float: left;margin-top: 0.2rem}
+.Pmade-channel-icon img{display: block;height: auto;max-height: 0.38rem;width: auto;margin: 0 auto}
+.Pmade-channel-input input{display: block;float: left;width:5.7rem;height: 0.8rem;background: none;font-size: 0.2rem;color: #999;padding-left: 0.2rem}
+.Pmade-channel-input>form>div:nth-child(2){margin-top: 0.2rem}
+.Pmade-channel-input>form button{display:block;width: 6.6rem;height: 0.8rem;margin: 0 auto;margin-top: 0.3rem;background: #e03a3a;font-size: 0.32rem;color: #fff;text-align: center;line-height: 0.8rem;border-radius: 0.1rem;}
+.Pmade-channel-input>form span{display: block;font-size: 0.18rem;color: #999;text-align: center;line-height: 0.18rem;padding-top: 0.13rem}
+
+/*七大空间定制梦想家*/
+.Pmade-space{width: 100%;height: auto;overflow: hidden;background: #f4f1f4;padding-bottom: 0.7rem}
+.Pmade-space-head{width: 100%;height: 1.78rem;}
+.Pmade-space-title{width: 100%;text-align: center;height: 0.52rem;line-height: 0.52rem;padding-top: 0.3rem;font-size: 0.52rem;color: #333;}
+.Pmade-space-title em{display: inline-block;width: 1.02rem;height: 0.27rem;}
+.Pmade-space-title p{display: inline-block;margin-bottom: 0.2rem}
+.Pmade-space-head span{display: block;font-size: 0.28rem;color: #444;text-align: center;line-height: 0.28rem;padding-top: 0.2rem}
+
+/*轮播图*/
+.Pmade-space-list{max-width: 800px;margin: 0 auto;  }
+.Pslide{width: 100%;height: 4rem!important;position: relative;margin-top: 0.26rem }
+.Pslide .img{position: absolute;transition: width 0.4s,height 0.4s,top 0.4s,left 0.4s,z-index 0.4s;  }
+.Pslide .img img{width:100%;height: 100%;display: block}
+.Pmade-space-list .Pslide .img,.Pmade-space-list .Pslide{overflow: hidden;}
+.Pslide .img1{width: 40%;height: 40%;top: 30%;left: -50%;z-index: 1;  }
+.Pslide .img2{width: 60%;height: 90%;top: 5%;left: -51%;z-index: 2;  }
+.Pslide .img3{width: 80%;height: 100%;top: 0;left: 10%;z-index: 3;  }
+.Pslide .img4{width: 60%;height: 90%;top: 5%;left: 91%;z-index: 2;  }
+.Pslide .img5{width: 40%;height: 40%;top: 30%;left: 110%;z-index: 1;  }
+.Pslide-bt{width: 100%;height: 0.52rem;display: flex;justify-content: space-between;white-space: nowrap}
+.Pslide-bt span{width: 1.02rem;height: 0.52rem;font-size: 0.24rem;color: #333;text-align: center;line-height: 0.52rem;background: #e1dee1}
+.Pslide-bt .on{background: #e03a3a;color: #fff}
+.Pmade-space button,.Pmade-home button{display:block;width: 3.8rem;height:0.68rem;margin:  0 auto;margin-top: 0.4rem;font-size: 0.28rem;color: #fff;text-align: center;line-height: 0.68rem;border-radius: 0.5rem;background: #e03a3a}
+.Pslide .img p{position: absolute;left: 0;bottom: 0;width: 100%;height: 0.4rem;background: rgba(0,0,0,0.5);font-size: 0.24rem;color: #fff;line-height: 0.4rem}
+.Pslide .img p span{display: inline-block;margin-right: 0.08rem}
+.Pslide .img p span:first-child{margin-left: 0.2rem}
+.Pslide .img p span:last-child{margin-right:0}
+
+/*全屋定制、美家案例*/
+.Pmade-case{width: 100%;height: 8.83rem;background: #24292f}
+.Pmade-case-head{width: 100%;height:2.16rem;background: url("../image/made/case-banner.jpg") no-repeat center;background-size: cover}
+.Pmade-case-title{width: 100%;text-align: center;height: 0.52rem;line-height: 0.52rem;padding-top: 0.68rem;font-size: 0.52rem;color: #fff;}
+.Pmade-case-title em{display: inline-block;width: 1.02rem;height: 0.27rem;}
+.Pmade-case-title p{display: inline-block;}
+.Pmade-case-head span{display: block;font-size: 0.28rem;color: #fff;text-align: center;line-height: 0.28rem;padding-top: 0.2rem}
+.Pmade-case-list{width: 100%;height: 5.6rem;border-top: 0.02rem solid #e03a3a;border-bottom: 0.02rem solid #e03a3a}
+.Pmade-case-list img{display: block;width: 100%;height: 100%}
+.Pmade-case-list .swiper-container{width: 100%;height: 100%}
+.Pmade-case-list .pagination{width: 100%;height: 0.12rem;line-height:0.12rem;text-align: center}
+.Pmade-case-list .pagination span{display: inline-block;}
+.Pmade-case-list .swiper-pagination-switch{background: #823235;width: 0.12rem;height: 0.12rem;margin-right: 0.24rem;border-radius: 50%}
+.Pmade-case-list .swiper-active-switch{width: 0.32rem;height: 0.12rem;border-radius: 0.5rem;background: #e03a3a}
+.Pmade-home{width: 100%;height: 10.82rem;background: #24292f}
+.Pmade-home-head{background: url("../image/made/home-banner.jpg") no-repeat center;background-size: cover}
+.Pmade-home-list{width: 7.3rem;height: auto;overflow: hidden;display: flex;justify-content: space-between;flex-wrap: wrap;margin: 0 auto}
+.Pmade-home-list li{width: 2.35rem;height: 3.2rem;border-radius: 0.1rem;overflow: hidden;background: #fff;margin-bottom: 0.27rem}
+.Pmade-home-img{width: 100%;height: 1.9rem;}
+.Pmade-home-img img{display: block;width: 100%;height: 100%}
+.Pmade-home-title{font-size: 0.28rem;color: #333;width: 2.15rem;height: 0.6rem;border-bottom: 0.02rem dashed #e03b3b;line-height: 0.6rem;font-weight: bold;margin: 0 auto}
+.Pmade-home-list span{width: 2.15rem;display: block;margin: 0 auto;font-size: 0.2rem;color: #333;line-height: 0.2rem;overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+.Pmade-home-list span:nth-child(3){padding-top: 0.12rem}
+.Pmade-home-list span:last-child{padding-top: 0.07rem}
+
+/*80000生态家具园*/
+.Pmade-garden{width: 100%;height: 9.9rem;background: url("../image/made/garden-banner.jpg") no-repeat center;background-size: cover;position: relative}
+.Pmade-garden-title{width: 6.9rem;height: auto;position: relative;margin: 0 auto}
+.Pmade-garden-title p{font-size: 0.52rem;color: #fff;line-height: 0.52rem;padding-top: 1.13rem;font-weight: bold}
+.Pmade-garden-title em{position: absolute;left: 0;top: 1.8rem;width: 2.2rem;height: 0.05rem;background: #e03b3b}
+.Pmade-garden-title span{display: block;font-size: 0.24rem;color: #fff;line-height: 0.48rem;padding-top: 0.44rem;width: 6.15rem}
+.Pmade-garden-list{position: absolute;width: 6.9rem;height: 1.4rem;left: 0;right: 0;bottom: 0.26rem;margin: auto;background: #dfdddf}
+.Pmade-garden-list li{width: 25%;height: 1.3rem;margin-top: 0.1rem;border-right: 0.02rem dashed #c7c5c7;box-sizing: border-box;;float: left}
+.Pmade-garden-list li:last-child{border-right: none}
+.Pmade-garden-list li img{display: block;height: 0.44rem;width:auto;margin:0 auto;margin-top: 0.2rem;}
+.Pmade-garden-list li p{font-size: 0.2rem;color: #333;text-align: center;line-height: 0.2rem;padding-top: 0.26rem}
+
+/*四大体系*/
+.Pmade-system{width: 100%;overflow: hidden;padding-bottom: 0.7rem}
+.Pmade-system-head{background: #fff;height: 2.16rem}
+.Pmade-system-head p{color: #333}
+.Pmade-system-head span{color: #444}
+.Pmade-system-list{width: 6.9rem;overflow: hidden;margin: 0 auto}
+.Pmade-system-list li{float: left}
+.Pmade-system-list li:first-child,.Pmade-system-list li:nth-child(2){width: 50%;height: 2.44rem}
+.Pmade-system-list li:nth-child(3){width: 100%;height: 3.38rem}
+.Pmade-system-list li:nth-child(4){width: 100%;height: 4.11rem}
+.Pmade-system-list li img{display: block;width: 100%;height: 100%}
+
+/*定制流程透明化*/
+.Pmade-process{width: 100%;height: 8.26rem;background: url("../image/made/process-banner.jpg") no-repeat center;background-size: cover}
+.Pmade-process-head{background: none}
+.Pmade-process-list{width: 6.9rem;height: auto;margin:0 auto;margin-top: 0.11rem;display: flex;justify-content: space-between;flex-wrap: wrap}
+.Pmade-process-list li{width: 1.8rem;height: 2.36rem;margin-bottom: 0.48rem}
+.Pmade-process-img{width: 1.8rem;height: 1.8rem;background: #545657;border-radius: 50%;position: relative}
+.Pmade-process-img img{display: block;position: absolute;left: 0;top: 0.04rem;width: 100%;height: 100%;border-radius: 50%}
+.Pmade-process-list li p{width: 100%;font-size: 0.26rem;color: #fff;text-align: center;line-height: 0.26rem;padding-top: 0.25rem}
+
+
+/*全无定制哦报名*/
+.Pmade-offer{width: 100%;height: 7.08rem;background: url("../image/made/offer-banner.jpg") no-repeat center;background-size: cover}
+.Pmade-offer .Pmade-case-head span em{font-style: normal;color: #e03b3b}
+.Pmade-channel-input>form>div:nth-child(3){margin-top: 0.2rem;border: none;background: none}
+.Pmade-channel-input select{display: block;width: 2.9rem;float: left;height: 100%;font-size: 0.22rem;color: #999;border: 0.01rem solid #cbcbcb;padding-left: 0.3rem;box-sizing: border-box;border-radius: 0.1rem;background: #f6f6f6}
+.Pmade-channel-input select:last-child{float: right}
+
+
+
+                            /**
+                            * ============================================================================
+                            * 产品页面：今朝品质保障页面样式表开始！！！！！！！
+                            * ============================================================================
+                            * Author: 今朝装饰设计有限公司
+                            * Date: 2019年06月28日
+                            */
+
+/*banner图*/
+.Psafe-banner{width: 100%;height: 7.3rem;background: url("../image/safe/safe-banner.jpg") no-repeat center;background-size: cover}
+/*4大模块*/
+.Psafe-fore{width: 100%;height: 2rem;border-top:0.08rem solid #f4f4f4;box-shadow: 0px 24px 16px -24px #e1e1e1}
+.Psafe-fore-list{width: 6.9rem;height: 100%;display: flex;justify-content: space-between;flex-wrap: wrap;margin: 0 auto}
+.Psafe-fore-list>li{width: 25%;height:100%}
+.Psafe-fore-list>li img{display: block;width: 0.9rem;height: 0.9rem;border-radius: 50%;margin: 0 auto;margin-top: 0.4rem}
+.Psafe-fore-list>li>p{font-size: 0.24rem;color: #333;text-align: center;line-height: 0.24rem;padding-top: 0.14rem}
+
+/*.现代生态家居产业园*/
+.Psafe-modern{width: 100%;height: 4.98rem;background: url("../image/safe/modern-banner.jpg") no-repeat center;background-size: cover;margin-top: 0.5rem;overflow: hidden}
+.Psafe-modern-title{width: 5.96rem;height: 1.18rem;margin: 0 auto;margin-top: 1.13rem;border: 0.02rem solid #fff;position: relative;box-sizing: border-box}
+.Psafe-modern-title p{width: 100%;height: 100%;font-size: 0.52rem;color: #fff;text-align: center;line-height: 1.18rem;font-family: '宋体'}
+.Psafe-modern-title span{width: 4.6rem;height: 0.35rem;position: absolute;left: 0;right: 0;bottom: -0.17rem;margin: auto;font-size: 0.26rem;text-align: center;line-height: 0.35rem;display: inline-block;background: #fff;color: #e03a3a}
+.Psafe-modern b{font-size: 0.28rem;color: #fff;text-align: center;width: 6.2rem;margin: 0 auto;font-weight: normal;line-height: 0.56rem;padding-top: 0.76rem;display: block}
+
+/*4大步骤*/
+.Psafe-step{width: 100%;height: 1.9rem;margin: 0.2rem auto 0.6rem;border-bottom: 0.18rem solid #f5f5f5;display: flex;justify-content: space-between;flex-wrap: wrap}
+.Psafe-step>li{width: 1.8rem;height: 100%;position: relative}
+.Psafe-step>li>img{display: block;width: 100%;height: 100%}
+.Psafe-step-shadow{position: absolute;left: 0;top:0 ;width: 100%;height: 100%;background: rgba(0,0,0,0.4)}
+.Psafe-step-shadow img{display: block;width: auto;height: 0.52rem;margin: 0.52rem auto 0;}
+.Psafe-step-shadow p{font-size: 0.24rem;line-height: 0.24rem;text-align: center;padding-top: 0.2rem;color: #fff}
+/*强大供应链*/
+.Psafe-supply{width: 100%;height: 9.98rem;background: url("../image/safe/supply-banner.jpg") no-repeat center;background-size: cover;}
+.Psafe-title{width: 100%;height: 2.13rem;overflow: hidden}
+.Psafe-title-big{font-size: 0.52rem;color: #333;text-align: center;line-height: 0.52rem;margin-top: 0.6rem;height: 0.52rem}
+.Psafe-title-big em{display: inline-block;font-style: normal;font-size: 0.22rem;line-height: 0.22rem;margin-bottom: 0.08rem;height: 0.22rem;overflow: hidden}
+/*.Psafe-title-big em:first-child{margin-right: 0.2rem;}*/
+/*.Psafe-title-big em:last-child{margin-left: 0.2rem;}*/
+.Psafe-title-big p{display: inline-block}
+.Psafe-title-big p span{color: #e03a3a;margin-right: 0.17rem;}
+.Psafe-title>p{font-size: 0.24rem;color: #999;text-align: center;line-height: 0.24rem;padding-top: 0.22rem}
+.Psafe-supply-list{width: 100%;height: 7.85rem}
+.Psafe-supply-list>li{width: 6.9rem;height:0.7rem;margin:  0 auto 0.55rem;position: relative;border-radius: 0.5rem;background: #fff;line-height: 0.7rem;}
+.Psafe-supply-num{position: absolute;left: 0.62rem;top: -0.14rem;width: 0.57rem;height: 0.57rem;border-radius: 50%;background: #e03a3a;overflow: hidden}
+.Psafe-supply-num em {display: block;width: 100%;height: 100%;font-size: 0.36rem;color: #fff;text-align: center;line-height: 0.57rem}
+.Psafe-supply-line{width: 0.02rem;height: 0.6rem;background: #e03a3a;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); 	/* IE 9 */
+    -moz-transform:rotate(45deg); 	/* Firefox */
+    -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+    -o-transform:rotate(45deg);
+    position: absolute;left: 1.2rem;top: 0.08rem;}
+.Psafe-supply-list>li>p{font-size: 0.23rem;color: #333;height:100%;padding-left: 1.75rem;}
+
+/*用心建筑家*/
+.Psafe-build{width: 100%;height: auto;padding-bottom: 0.67rem;background: #f5f5f5}
+.Psafe-build-list{width: 7.1rem;height: auto;margin: 0 auto}
+.Psafe-build-list>li{width: 100%;height: 3.6rem;margin-bottom: 0.2rem}
+.Psafe-build-list>li:first-child{background: url("../image/safe/build1.jpg") no-repeat center;background-size: cover;}
+.Psafe-build-list>li:nth-child(2){background: url("../image/safe/build2.jpg") no-repeat center;background-size: cover;}
+.Psafe-build-list>li:nth-child(3){background: url("../image/safe/build3.jpg") no-repeat center;background-size: cover;}
+.Psafe-build-list>li>p{font-size: 0.38rem;color: #e03a3a;line-height: 0.38rem;padding-left: 0.32rem;padding-top: 0.6rem}
+.Psafe-build-list>li>span{display: block;width: 2.5rem;overflow: hidden;font-size: 0.24rem;color: #666;line-height: 0.36rem;padding-top: 0.18rem;padding-left: 0.32rem}
+.Psafe-build-list>li>em{display: block;margin-left: 0.32rem;width: 0.68rem;height: 0.06rem;background: #ffb700;margin-top: 0.26rem}
+
+
+/*金牌服务*/
+.Psafe-gold{width: 100%;height: 7.66rem;background: #fff}
+.Psafe-gold-list{width: 7.1rem;height: auto;margin: 0 auto;display: flex;justify-content: space-between;flex-wrap: wrap}
+.Psafe-gold-list>li{width: 2.23rem;height: 2.42rem;margin-bottom: 0.3rem}
+.Psafe-gold-list>li:first-child{background: url("../image/safe/gold1.jpg") no-repeat center;background-size: cover;}
+.Psafe-gold-list>li:nth-child(2){background: url("../image/safe/gold2.jpg") no-repeat center;background-size: cover;}
+.Psafe-gold-list>li:nth-child(3){background: url("../image/safe/gold3.jpg") no-repeat center;background-size: cover;}
+.Psafe-gold-list>li:nth-child(4){background: url("../image/safe/gold4.jpg") no-repeat center;background-size: cover;}
+.Psafe-gold-list>li:nth-child(5){background: url("../image/safe/gold5.jpg") no-repeat center;background-size: cover;}
+.Psafe-gold-list>li:nth-child(6){background: url("../image/safe/gold6.jpg") no-repeat center;background-size: cover;}
+.Psafe-gold-list>li img{display: block;width: auto;height: 0.5rem;margin: 0.36rem auto 0}
+.Psafe-gold-list>li p{font-size: 0.28rem;color: #333;text-align: center;line-height: 0.28rem;font-weight: bold;padding-top: 0.2rem;width: 1.8rem;border-top: 0.02rem solid #e03a3a;margin: 0.18rem auto 0}
+.Psafe-gold-list>li>span{display: block;width: 1.8rem;margin: 0 auto;font-size: 0.2rem;color: #555;text-align: center;line-height: 0.32rem;padding-top: 0.15rem}
+
+/*大品牌全球购*/
+.Psafe-brand{width: 100%;overflow: hidden;padding-bottom: 0.97rem;border-top: 0.18rem solid #f5f5f5}
+.Psafe-brand .Psafe-title{height: 1.49rem}
+.Psafe-brand-list{width: 7.1rem;height: 2.8rem;display: flex;justify-content: space-between;flex-wrap: wrap;margin: 0 auto}
+.Psafe-brand-list>li{width: 2.2rem;height: 100%;border: 0.02rem solid #c4c4c4;box-sizing: border-box;position: relative}
+.Psafe-brand-list>li img{width: 100%;height: 100%;display: block}
+.Psafe-brand-note{position: absolute;left:0 ;right: 0;bottom: -0.37rem;margin: auto;width: 2rem;height: 0.68rem;background: #e03a3a;}
+.Psafe-brand-note p{font-size: 0.2rem;color: #fff;text-align: center;line-height: 0.3rem;padding-top: 0.05rem}
+.Psafe-brand-more{width: 7.1rem;height: 2.8rem;margin: 0.8rem auto 0;display: flex;justify-content: space-around;flex-wrap:nowrap}
+.Psafe-brand-small{width: 2.2rem;height: 100%;border: 0.02rem solid #c4c4c4;box-sizing: border-box;position: relative}
+.Psafe-brand-small img{display: block;width: 100%;height: 100%}
+.Psafe-brand-big{width: 4.15rem;height: 100%;border: 0.02rem solid #c4c4c4;box-sizing: border-box;position: relative}
+.Psafe-brand-big img{display: block;width: 100%;height: 100%}
+.Psafe-brand-word{position: absolute;left:0 ;right: 0;bottom: -0.37rem;margin: auto;width: 3.5rem;height: 0.68rem;background: #e03a3a;font-size: 0.2rem;color: #fff;text-align: center;line-height: 0.68rem }
+
+
+/*五大标准工艺*/
+.Psafe-process{width: 100%;overflow: hidden;padding-bottom: 0.6rem}
+.Psafe-process .Psafe-title{height: 1.92rem}
+.Psafe-process-list{width: 7.1rem;height: auto;margin: 0 auto}
+.Psafe-process-con{width: 100%;height: 2.6rem;margin-bottom: 0.1rem;display: flex;justify-content: space-between;flex-wrap: nowrap}
+.Psafe-process-img{width: 50%;height: 100%}
+.Psafe-process-img img{display: block;width: 100%;height: 100%}
+.Psafe-process-word{width: 50%;height: 100%;position: relative;background: #e03a3a}
+.Psafe-process-center{width: 2rem;height: 100%;margin: 0 auto}
+.Psafe-process-center p{font-size: 0.28rem;color: #fff;font-weight: bold;text-align: center;padding-top: 0.5rem;padding-bottom: 0.26rem;border-bottom: 0.02rem dashed #fff;margin-bottom: 0.08rem}
+.Psafe-process-center span{display: block;font-size: 0.24rem;color: #fff;text-align: center;line-height: 0.24rem;padding-top: 0.18rem}
+.Psafe-icon-left{position: absolute;width: 0.16rem;height: 0.28rem;left: 0.15rem;bottom: 0.1rem;background: url("../image/safe/pro-left.png") no-repeat center;background-size: cover}
+.Psafe-icon-right{position: absolute;width: 0.16rem;height: 0.28rem;right: 0.15rem;bottom: 0.1rem;background: url("../image/safe/pro-right.png") no-repeat center;background-size: cover}
+
+/*无有售后、微笑服务*/
+.Psafe-sales{width: 100%;height: 4.62rem;background: url("../image/safe/sale-banner.jpg") no-repeat center;background-size: cover;}
+.Psafe-sales .Psafe-title{height: 1.76rem}
+.Psafe-sales-list{width: 7.1rem;height: auto;display: flex;justify-content: space-between;flex-wrap: nowrap;margin: 0 auto}
+.Psafe-sales-list li{width: 1.56rem}
+.Psafe-sales-list li img{display: block;width: 1.56rem;height: 1.72rem}
+.Psafe-sales-list li p{font-size: 0.24rem;color: #80bef8;text-align: center;line-height: 0.24rem;padding-top: 0.17rem}
+
+/*报名框*/
+.Psafe-offer{width: 100%;overflow: hidden;padding-bottom: 0.5rem}
+.Psafe-offer .Psafe-title{height: 1.5rem}
+
+
+
+
+                            /**
+                            * ============================================================================
+                            * 产品页面：今朝全案设计页面样式表开始！！！！！！！
+                            * ============================================================================
+                            * Author: 今朝装饰设计有限公司
+                            * Date: 2019年06月28日
+                            */
+/*banner图*/
+.Pall-banner{width: 100%;height: 6rem;background: url("../image/all/all-banner.jpg") no-repeat center;background-size: cover;margin-bottom: 0.32rem}
+/*报名框*/
+.Pall-offer{width: 100%;height: auto;overflow: hidden;box-shadow: 0px 0px 4px 2px #dfdede}
+.Pall-offer .Pmade-channel-center{margin-top: 0}
+.Pall-offer .Pmade-channel-title p{font-size: 0.46rem}
+.Pmade-channel-title span{color: #333;margin-left: 0.13rem}
+
+/*设计真的重要吗*/
+.Pall-real{width: 100%;height: auto;overflow: hidden;margin-top: 0.12rem}
+.Pall-title{width: 100%;height: 2.4rem;margin-bottom: 0.32rem}
+.Pall-title-real{background: url("../image/all/title1.jpg") no-repeat center;background-size: cover;}
+.Pall-title p{font-size: 0.46rem;color: #212121;line-height: 0.46rem;text-align: center;padding-top: 0.9rem}
+.Pall-title p span{color: #f95e5e}
+.Pall-title p em{width: 0.2rem;height:0.2rem;margin-right:0.17rem;border-radius: 50%}
+.Pall-title b{display: block;font-weight: normal;font-size: 0.24rem;color: #333;text-align: center;line-height: 0.24rem;padding-top: 0.46rem}
+.Pall-real-img{width: 100%;height: 4rem;margin-bottom: 0.2rem}
+.Pall-real-compare{width: 100%;height: 3.04rem}
+.Pall-real-img img,.Pall-real-compare img{display: block;width: 100%;height: 100%}
+
+
+/*总规划师*/
+.Pall-plan-real{height: 2.83rem;background: url("../image/all/title2.jpg") no-repeat center;background-size: cover;}
+.Pall-plan-real p span{font-weight: bold}
+.Pall-plan-real b{line-height: 0.42rem}
+.Pall-plan .Psafe-build-list li{box-shadow: 0px 12px 8px -12px #e1e1e1;}
+
+/*全案设计都包含什么*/
+.Pall-include{width: 100%;margin-top: 0.06rem;overflow: hidden}
+.Pall-include-real{height: 2.02rem;background: url("../image/all/title3.jpg") no-repeat center;background-size: cover;}
+.Pall-include .Pall-include-real p{height: 100%;}
+.Pall-include-six{width: 100%;height: 5.08rem;background: url("../image/all/include-banner.jpg");background-size: cover;}
+.Pall-include-list{width: 7.1rem;height: 100%;margin: 0 auto;display: flex;justify-content: space-around;flex-wrap: wrap;overflow: hidden}
+.Pall-include-list li{width: 1.55rem;height: 1.5rem;margin-right:0.86rem;background: url("../image/all/circle.png") no-repeat center;background-size: cover;}
+.Pall-include-list li p{font-size: 0.4rem;color: #fff;text-align: center;line-height: 0.4rem;padding-top: 0.26rem;font-weight: bold}
+.Pall-include-list li span{display: block;width: 0.9rem;margin:0 auto;font-size: 0.2rem;color: #fff;text-align: center;line-height: 0.3rem;padding-top: 0.06rem}
+/*.Pall-include-list li{margin-top: 0.54rem}*/
+.Pall-include-list li:first-child,.Pall-include-list li:nth-child(2),.Pall-include-list li:nth-child(3){margin-top: 0.84rem}
+.Pall-include-list li:nth-child(3n){margin-right: 0}
+
+/*六大优势*/
+.Pall-advan{width: 100%;height: auto;overflow: hidden}
+.Pall-advan .Pall-advan-real{height: 2.4rem;background: url("../image/all/title4.jpg") no-repeat center;background-size: cover;}
+.Pall-advan .Pall-advan-real p{padding-top: 0.92rem;font-weight: bold}
+.Pall-advan .Pall-advan-real b{padding-top: 0.48rem}
+.Pall-advan-list{margin-left: 0.2rem;height: 4.36rem}
+.Pall-advan-list .wrapper05 {position:relative;height: 4.36rem;width: 100%;overflow: hidden;margin:0 auto;}
+.Pall-advan-list .wrapper05 .scroller {position:absolute}
+.Pall-advan-list .wrapper05 .scroller li {width:3.02rem;height: 4.36rem;float: left;overflow: hidden;position: relative}
+.Pall-advan-list .wrapper05 .scroller li a{display:block;margin-right: 0.18rem;}
+.Pall-advan-list .wrapper05 .scroller li:last-child a{;margin-right:0;}
+.Pall-advan-list .Phome-good-img{width: 100%;height:100%}
+.Pall-advan-list .Phome-good-img img{display: block;width: 100%;height: 4.36rem}
+.Pall-advan-list .Phome-good-con{width:2.84rem;height: 1.7rem;position: absolute;left: 0;bottom: 0;background: rgba(0,0,0,0.5)}
+.Pall-advan-list .Phome-good-con p{font-size: 0.28rem;color: #fff;line-height: 0.28rem;padding-top: 0.28rem;text-align: center}
+.Pall-advan-list .Phome-good-con span{display: block;width:2.32rem;font-size: 0.18rem;color: #fff;line-height: 0.3rem;padding-top: 0.15rem;margin: 0 auto;text-align: center;}
+
+/*前沿设计师*/
+.Pall-design-banner{width: 7.1rem;height: 4rem;margin: 0 auto;position: relative}
+.Pall-design .Pall-design-real{background: url("../image/all/title5.jpg") no-repeat center;background-size: cover;}
+.Pall-design-banner .swiper-container{width: 100%;height: 100%}
+.Pall-design-banner .swiper-container img{display: block;width: 100%;height: 100%}
+.Pall-design-banner .pagination{width: 100%;height: 0.04rem;line-height:0.12rem;text-align: center;position: absolute;left: 0;bottom: 0.26rem;display: flex;  justify-content: center;  flex-wrap: nowrap;}
+.Pall-design-banner .pagination span{display:block;}
+.Pall-design-banner .swiper-pagination-switch{background: #dcdcdc;width: 0.4rem;height: 0.12rem;margin-right: 0.11rem;}
+.Pall-design-banner .swiper-active-switch{width: 0.4rem;height: 0.12rem;background: #f95e5e}
+.Pall-design-con{width: 7.1rem;height: 2.8rem;background: #eee;margin:0 auto;margin-top: 0.2rem}
+.Pall-design-word{width: 3.75rem;height: 100%;float: left}
+.Pall-design-word p{font-size: 0.28rem;color: #212121;padding-left: 0.24rem;padding-top: 0.5rem;font-weight: bold}
+.Pall-design-word span{display: block;width: 3.25rem;padding-left: 0.24rem;padding-top: 0.2rem;font-size: 0.2rem;color: #666;line-height: 0.24rem}
+.Pall-design-word button{display: block;width: 2.4rem;height: 0.56rem;font-size: 0.24rem;color: #fff;text-align: center;line-height: 0.24rem;background: #da525d;margin-left: 0.24rem;margin-top: 0.3rem}
+.Pall-design-img{float: left;width: 3.35rem;height: 100%}
+.Pall-design-img img{display: block;width: 100%;height: 100%}
+
+/*用设计对话品质家具*/
+.Pall-house{width: 100%;height: 7.74rem;background: #212121;overflow: hidden;margin-top: 1rem}
+.Pall-house .Pall-house-real{background: url("../image/all/title6.jpg") no-repeat center;background-size: cover;}
+.Pall-house .Pslide .img p{bottom: -0.4rem;font-size: 0.24rem;color: #f95e5e;text-align: center;background: none;line-height: 0.56rem;}
+.Pall-house .Pslide-bt{height: 0.04rem;margin-top: 0.8rem;justify-content: center}
+.Pall-house .Pslide-bt span{margin-right: 0.11rem;height: 0.04rem;width: 0.4rem}
+.Pall-house .Pslide-bt span:last-child{margin-right: 0}
+.Pmade-house-list .Pslide{margin-top: 0}
+.Pall-house .Pall-title{margin-bottom: 0}
+.Pall-house .img a{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: url("../image/all/vr.png") no-repeat center;background-size: cover;}
+.Pall-house .Pall-house-real b{color: #fff}
+
+.Pall-process{width: 100%;margin-top: 0.5rem;padding-bottom: 0.2rem}
+.Pall-process .Pall-process-real{background: url("../image/all/process-banner.jpg") no-repeat center;background-size: cover;}
+.Pall-process-list{width: 100%;height: 3.3rem;background: url("../image/all/process.jpg") no-repeat center;background-size: cover;display: flex;justify-content: space-between;flex-wrap: wrap}
+.Pall-process-list li{width: 25%;height:1.5rem}
+.Pall-process-icon{width: 0.75rem;height: 0.83rem;margin: 0 auto;font-size: 0.38rem;text-align: center;color: #fff;line-height: 0.83rem;font-weight: bold;background: url("../image/all/icon.png") no-repeat center;background-size: cover;}
+.Pall-process-list li p{font-size: 0.24rem;color: #333;text-align: center;line-height: 0.24rem;padding-top: 0.15rem}
+.Pall-process-list li:nth-child(7),.Pall-process-list li:nth-child(5),
+.Pall-process-list li:nth-child(6),.Pall-process-list li:nth-child(8){margin-top: 0.4rem}
+
+
+                        /**
+                        * ============================================================================
+                        * 产品页面：今朝设计师详情页面样式表开始！！！！！！！
+                        * ============================================================================
+                        * Author: 今朝装饰设计有限公司
+                        * Date: 2019年06月28日
+                        */
+/*banner图*/
+.Pdesignd-banner{width: 100%;height: 4.85rem;background: url("../image/design/banner.jpg") no-repeat center;background-size: cover;overflow: hidden}
+.Pdesignd-banner-photo{width: 1.6rem;height: 1.6rem;margin: 0.48rem auto 0.1rem;border-radius: 50%;overflow: hidden}
+.Pdesignd-banner-photo img{display: block;width: 100%;height: 100%}
+.Pdesignd-banner-name{width: 100%;height: 0.36rem;text-align: center;line-height: 0.36rem;overflow: hidden;font-size: 0.36rem;}
+.Pdesignd-banner-name p{display: inline-block;color: #fff;margin-right: 0.1rem}
+.Pdesignd-banner-name span{display: inline-block;font-size: 0.16rem;color: #fff;padding: 0.05rem 0.1rem;border-radius: 0.1rem;background: #de3535;line-height: 0.16rem}
+.Pdesignd-banner-word{width: 100%;padding-top: 0.45rem}
+.Pdesignd-banner-word p{font-size: 0.22rem;color: #fff;line-height: 0.22rem;text-align: center;padding-top: 0.2rem;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+.Pdesignd-banner-word p:first-child{padding-top: 0}
+.Pdesignd-banner-word p span{display: inline-block;margin-right: 0.29rem;}
+.Pdesignd-banner-word p span:last-child{margin-right: 0}
+
+/*详情列表*/
+.Pdesignd-con{width: 100%;overflow: hidden}
+.Pdesignd-con-title{width: 100%;overflow: hidden;border-top: 0.2rem solid #f6f6f6;}
+.Pdesignd-con-title p{width:7.1rem;margin: 0.3rem auto;font-size: 0.3rem;color: #333;line-height: 0.3rem;border-left: 0.04rem solid #de3535;box-sizing: border-box;padding-left: 0.2rem}
+.Pdesignd-con-list{width: 7.1rem;height: auto;overflow: hidden;margin: 0 auto}
+.Pdesignd-con-list li{width: 100%;height: 5.24rem}
+.Pdesignd-con-img{width: 100%;height: 4rem}
+.Pdesignd-con-img img{display: block;width: 100%;height: 100%}
+.Pdesignd-con-list h3{font-weight: normal;font-size: 0.3rem;color: #333;text-align: center;line-height: 0.3rem;padding-top: 0.3rem}
+.Pdesignd-con-list p{font-size: 0.24rem;color: #666;text-align: center;line-height: 0.24rem;padding-top: 0.13rem}
+.Pdesignd-con-list p span{display: inline-block;margin-right: 0.1rem}
+.Pdesignd-con-list p span:last-child{margin-right: 0}
+

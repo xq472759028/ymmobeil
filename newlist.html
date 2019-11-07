@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<!--基本样式引入-->
+		<link rel="stylesheet" href="Public/public/css/mobile.css" />
+		<link rel="stylesheet" href="Public/public/css/publicbile.css" />
+		<link rel="stylesheet" href="Public/css/public.css">
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+		</script>
+		<script src="Public/public/js/rem.js"></script>
+		<script src="Public/js/public.js"></script>
+		
+	</head>
+	<body>
+	<!--头部-->
+	<script src="Public/js/header.js"></script>
+		<div id="new_yingmailist">
+			<h3>老房装修软装该怎样布置 这九种老房装修软装误区千万不要碰!</h3>
+			<div class="title_new">
+				<span>发布时间：2019/07/15 &nbsp; 点击次数：<b>23545</b>次</span>
+
+			</div>
+			<div id="newyingmaicont">
+				<!--内容-->
+			</div>
+			<!--分页-->
+			<div class="new_pages">
+				<a href="#">上一篇：为什么总说自己家装修的不好 老房装修要注意什么问题?</a>
+				<a href="#">下一篇：老房装修用心装饰的背景墙是什么样 看完别再纠结了</a>
+			</div>
+			<!--更多资讯-->
+			<div class="zixun">
+				<div class="titles">更多资讯</div>
+				<div class="titles">查看更多 &gt;</div>
+			</div>
+			<!--更多资讯内容-->
+			<div class="zixuncontent">
+				<dl>
+					<dt>
+						<img src="Public/public/img/about/yingmaimobile.jpg" width="100%" />
+					</dt>
+					<dd class="ddtwoes">厨卫吊顶含灯吗，不如选择集成吊不如选择集成吊顶吧顶吧</dd>
+					<dd class="ddthree">厨卫吊顶含灯吗，不如选择集成吊顶吧厨卫吊顶含灯吗，不择集成吊顶吧厨卫吊顶含...</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="Public/public/img/about/yingmaimobile.jpg" width="100%" />
+					</dt>
+					<dd class="ddtwoes">厨卫吊顶含灯吗，不如选择集成吊不如选择集成吊顶吧顶吧</dd>
+					<dd class="ddthree">厨卫吊顶含灯吗，不如选择集成吊顶吧厨卫吊顶含灯吗，不择集成吊顶吧厨卫吊顶含...</dd>
+				</dl>
+				<dl>
+					<dt>
+						<img src="Public/public/img/about/yingmaimobile.jpg" width="100%" />
+					</dt>
+					<dd class="ddtwoes">厨卫吊顶含灯吗，不如选择集成吊不如选择集成吊顶吧顶吧</dd>
+					<dd class="ddthree">厨卫吊顶含灯吗，不如选择集成吊顶吧厨卫吊顶含灯吗，不择集成吊顶吧厨卫吊顶含...</dd>
+				</dl>
+			</div>
+		</div>
+	<!--尾部-->
+	<script src="Public/js/footer.js"></script>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		//jq超出省略号隐藏
+			$("#new_yingmailist .zixuncontent .ddthree").each(function() {      
+				var maxwidth = 40;      
+				if($(this).text().length > maxwidth) {        
+					$(this).text($(this).text().substring(0, maxwidth));        
+					$(this).html($(this).html() + '...');      
+				}    
+			});
+	</script>
+</html>

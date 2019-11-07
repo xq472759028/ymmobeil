@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>美家视屏详情</title>
+    <link rel="stylesheet" href="Public/css/mym.css">
+    <link rel="stylesheet" href="Public/css/public.css">
+    <!--引入js-->
+    <script src="Public/js/jquery.min.js"></script>
+    <script src="Public/js/rem.js"></script>
+    <script src="Public/js/public.js"></script>
+</head>
+<body>
+<!--头部-->
+<script src="Public/js/header.js"></script>
+<!--视屏播放-->
+<div class="Pvideod">
+    <div class="Pvideod-title">
+        <p>二手房装修注意这些问题，省钱又耐用？</p>
+        <span>来源：英迈整装</span>
+    </div>
+    <div class="Pvideod-tv">
+        <img class="Phome-tv-screen" src="Public/image/home/play.png" alt="">
+        <video loop="loop"  controls="controls">
+            <source src="" type="video/ogg">
+            <source src="Public/image/home/mp1 (2).mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<!--往期推荐-->
+<div class="Pvideod-commend">
+    <div class="Pvideod-commend-title">
+        <p>往期推荐</p>
+    </div>
+    <div class="Pvideo-list">
+        <a src="Public/image/home/mp1 (2).mp4">
+            <div class="Pvideo-img">
+                <img src="Public/image/video/v1.jpg" alt="">
+                <div class="Pvideo-img-shadow"></div>
+            </div>
+            <div class="Pvideo-con">
+                <h3>二手房装修注意这些问题，省钱又耐用？</h3>
+                <b>随着房价日益攀升，现在越来越多的人会选更换</b>
+                <p>
+                    <span>来源：英迈整装</span>
+                    <span>2019-9-30</span>
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="Pvideo-list">
+        <a src="Public/image/home/mp1 (4).mp4">
+            <div class="Pvideo-img">
+                <img src="Public/image/video/v1.jpg" alt="">
+                <div class="Pvideo-img-shadow"></div>
+            </div>
+            <div class="Pvideo-con">
+                <h3>二手房装修注意这些问题，省钱又耐用？</h3>
+                <b>随着房价日益攀升，现在越来越多的人会选更换</b>
+                <p>
+                    <span>来源：英迈整装</span>
+                    <span>2019-9-30</span>
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="Pvideo-list">
+        <a src="Public/image/home/mp1 (2).mp4">
+            <div class="Pvideo-img">
+                <img src="Public/image/video/v1.jpg" alt="">
+                <div class="Pvideo-img-shadow"></div>
+            </div>
+            <div class="Pvideo-con">
+                <h3>二手房装修注意这些问题，省钱又耐用？</h3>
+                <b>随着房价日益攀升，现在越来越多的人会选更换</b>
+                <p>
+                    <span>来源：英迈整装</span>
+                    <span>2019-9-30</span>
+                </p>
+            </div>
+        </a>
+    </div>
+    <!--查看更多-->
+    <a href="" class="Pvideo-more">查看更多</a>
+</div>
+<!--服务热线-->
+<div class="Phome-tel">
+    <p><em></em>24小时服务热线<em></em></p>
+    <div class="Phome-tel-num">
+        <img src="Public/image/home/tel.png" alt="">
+        <span>400-678-8988</span>
+    </div>
+</div>
+<!--版权所有-->
+<div class="Phome-copy">
+    <p>Copyright ©  2000-2019 北京今朝英迈木业有限公司 版权所有 </p>
+</div>
+<!--尾部-->
+<script src="Public/js/footer.js"></script>
+</body>
+<script>
+    $('.Phome-tv-screen').on('touchstart', function () {
+        $(this).hide();
+        $('.Pvideod-tv video').show(0, function () {
+            $(this).attr('src', 'Public/image/home/mp1 (2).mp4');
+            $(this).attr('autoplay', 'autoplay');
+
+        });
+    });
+    $('.Pvideo-list').on('touchstart', function () {
+        var src = $(this).find('a').attr('src');
+//        $('.Pvideo-list').find('.Phome-video-of').hide()
+//        $(this).find('.Phome-video-of').show()
+        $('.Pvideod-tv video').show(0, function () {
+            $('.Phome-tv-screen').hide();
+            $(this).attr('src', src);
+            $(this).attr('autoplay', 'autoplay');
+        });
+    });
+</script>
+</html>
