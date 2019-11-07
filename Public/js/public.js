@@ -40,7 +40,7 @@ window.onload = function () {
     $('.ymsign-click').on('touchstart',function () {
         $('.ymsign').slideDown()
     });
-    $('.ymsign-close').on('touchsend',function () {
+    $('.ymsign-close').on('touchsend',function (e) {
         if (e.type == "touchsend") e.preventDefault();
         $('.ymsign').slideUp();
     })
