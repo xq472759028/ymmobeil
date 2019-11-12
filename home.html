@@ -143,9 +143,9 @@
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="yingmai.html">
             <img src="Public/image/home/for3.png" alt="">
-            <span>全屋整装</span>
+            <span>英迈整装</span>
         </a>
     </li>
     <li>
@@ -492,7 +492,14 @@
 </body>
 <script type="text/javascript">
     $(window).load(function () {
-
+//        模块跳转
+        $('.Phome-fore li a').each(function () {
+            if($(this)[0].href==String(window.location)){
+                var word = $(this).find('span').text();
+                console.log(word);
+                $('.ymhead-content').text(word)
+            }
+        })
         var mySwiper = new Swiper('.Phome-banner .swiper-container', {
             pagination: '.Phome-banner .pagination',
             loop: true,
@@ -503,6 +510,7 @@
 
         $('.wrapper').navbarscroll();
 
+        //视屏
         $('.Phome-tv-screen').on('touchstart', function () {
             $(this).hide();
             $('.Phome-video-con video').show(0, function () {
@@ -514,7 +522,7 @@
         $('.Phome-video-list>li').on('touchstart', function () {
             var src = $(this).find('a').attr('src');
             $('.Phome-video-list').find('.Phome-video-of').hide()
-            $(this).find('.Phome-video-of').show()
+            $(this).find('.Phome-video-of').show();
             $('.Phome-video-con video').show(0, function () {
                 $('.Phome-tv-screen').hide();
                 $(this).attr('src', src);
