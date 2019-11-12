@@ -75,6 +75,36 @@ document.writeln(`
                     <span>关于英迈</span>
                 </a>
             </li>
+            <li style="display: none">
+                <a href="offer.html">
+                    <img src="Public/image/public/icon11.png" alt="">
+                    <span>快速报价</span>
+                </a>
+            </li>
+            <li style="display: none">
+                <a href="all.html">
+                    <img src="Public/image/public/icon11.png" alt="">
+                    <span>全案设计</span>
+                </a>
+            </li>
+            <li style="display: none">
+                <a href="newhouse.html">
+                    <img src="Public/image/public/icon11.png" alt="">
+                    <span>新房装修</span>
+                </a>
+            </li>
+            <li style="display: none">
+                <a href="oldhouse.html">
+                    <img src="Public/image/public/icon11.png" alt="">
+                    <span>老房装修</span>
+                </a>
+            </li>
+            <li style="display: none">
+                <a href="jubuzhuangxiu.html">
+                    <img src="Public/image/public/icon11.png" alt="">
+                    <span>局部装修</span>
+                </a>
+            </li>
         </ul>
     </div>
 </header>
